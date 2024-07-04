@@ -1,7 +1,7 @@
 <a href="#"><img width="100%" height="auto" src="https://nextjs.org/static/blog/next-14/twitter-card.png" height="175px"/></a>
 
-<h1 align="center">Project FS30 </h1>
-<h3 align="center">Front-end Dashboard FS-30</h3>
+<h1 align="center">Project TMSCrap </h1>
+<h3 align="center">Front-end Dashboard TMScrap</h3>
 
 ## 🚀 Teknologi yang dipakai:
 
