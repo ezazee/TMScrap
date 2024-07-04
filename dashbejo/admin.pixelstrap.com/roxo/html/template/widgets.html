@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  
+<!-- Mirrored from admin.pixelstrap.com/roxo/html/template/widgets.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Apr 2024 19:36:05 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Roxo admin is super flexible, powerful, clean &amp; modern responsive tailwind admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Roxo admin template, dashboard template, tailwind admin template, responsive admin template, web app">
+    <meta name="author" content="pixelstrap">
+    <title>Roxo - Premium Admin Template</title>
+    <!-- Favicon icon-->
+    <link rel="icon" href="../../assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../assets/images/favicon.png" type="image/x-icon">
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+    <!-- Iconly icon css-->
+    <link rel="stylesheet" href="../../assets/css/vendors/iconly.css">
+    <!-- App css-->
+    <link rel="stylesheet" href="../../assets/css/style.css">
+  </head>
+  <body dir="ltr">
+    <main class="page-wrapper"> 
+      <!-- Page Header start-->
+      <header class="sticky top-0 z-[4]">
+        <div class="page-header">
+          <ul class="header-nav flex items-center gap-4 w-full lg:gap-3 md:gap-2 sm:gap-1">
+            <!-- Page Left Header start-->
+            <li>
+              <div class="box-wrapper"><span class="icbu mr-[-1px] mb-[-2px] md:mr-0 toggle-sidebar"><span class="iconlyBulk-Category"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span><span class="path3 text-[20px] sm:text-[16px]"></span><span class="path4 text-[20px] sm:text-[16px]"></span></span></span>
+              </div>
+            </li>
+            <li class="w-11/12 lg:w-full sm:w-auto sm:mr-auto">
+              <form class="search-box flex relative w-11/12 lg:w-full sm:w-auto  header-search">
+                <div class="box-wrapper sm:inline-block hidden"><span class="icbu search-icon mr-[-1px] mb-[-2px]"><span class="iconlyBulk-Search"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></span>
+                </div>
+                <div class="group-input relative sm:absolute ltr:sm:left-0 rtl:sm:right-0 w-11/12 lg:w-full sm:w-auto"><span class="icbu mr-[-1px]"><span class="iconlyBulk-Search"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></span>
+                  <input class="w-full sm:w-48 dark:bg-mode-300 border-0 h-auto" type="text" placeholder="Search...">
+                </div>
+              </form>
+            </li>
+            <!-- Page Left Header end-->
+            <!-- Notification dropdown start-->
+            <li class="relative dropdown">
+              <div class="box-wrapper"><span class="icbu mr-[-1px] mb-[-2px] mt-[2px]"><span class="iconlyBulk-Notification"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></span>
+              </div>
+              <div class="dropdown-menu mt-3 p-0 ltr:md:left-[-270px] rtl:md:right-[-270px] ltr:sm:left-2.5 rtl:sm:right-2.5 ltr:lg:right-[-60px] rtl:lg:left-[-60px]">
+                <ul class="top-0 p-6 dark:bg-mode-300 w-[410px] sm:w-[300px] sm:px-5">
+                  <li class="flex justify-between items-center pb-4">
+                    <h6 class="font-medium">Notifications</h6><a class="text-primary underline decoration-solid" href="chat-app.html">Check all</a>
+                  </li>
+                              <li class="flex py-4 border-t border-light">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:w-[40px] sm:h-[30px] dark:bg-mode-300"><img class="mx-auto" src="../../assets/images/users/1.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="chat-app.html">Gary Hogan</a><span class="text-gray-500 opacity-50">5 mins ago</span></h6>
+                                  <p class="text-2xs text-gray-500">I have add 2 files for <span class="text-primary inline-block px-1">new task</span></p>
+                                  <div class="flex pt-4 gap-2 sm:flex-col">
+                                    <div class="p-3 bg-gray-200 flex rounded dark:bg-mode-100"><span class="icbu"><span class="iconlyBulk-Document"><span class="path1 text-[24px]"></span><span class="path2 text-[24px]"></span></span></span>
+                                      <div class="ml-2"><a class="text-2xs font-medium block" href="#">1_day_task.pdf</a><span class="text-gray-500">1 MB</span></div>
+                                    </div>
+                                    <div class="p-3 bg-gray-200 flex rounded dark:bg-mode-100"><span class="icbu"><span class="iconlyBulk-Paper-Plus"><span class="path1 text-[24px]"></span><span class="path2 text-[24px]"></span><span class="path3 text-[24px]"></span></span></span>
+                                      <div class="ml-2"><a class="text-2xs font-medium block" href="#">day_task.pdf</a><span class="text-gray-500">4 MB</span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="flex py-4 border-t border-light">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:w-[40px] sm:h-[30px] dark:bg-mode-300"><img class="mx-auto" src="../../assets/images/users/5.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="chat-app.html">Edwin Day</a><span class="text-gray-500 opacity-50">30 mins ago</span></h6>
+                                  <p class="text-2xs text-gray-500">Marked the <span class="text-primary inline-block px-1">bug analysis</span> task as done</p>
+                                </div>
+                              </li>
+                              <li class="flex py-4 border-t border-light pb-0">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:w-[40px] sm:h-[30px] dark:bg-mode-300"><img class="mx-auto" src="../../assets/images/users/4.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="chat-app.html">Ralph Waters</a><span class="text-gray-500 opacity-50">45 mins ago</span></h6>
+                                  <p class="text-2xs text-gray-500"><span class="text-primary inline-block px-1">New bugs </span> added for designer</p>
+                                </div>
+                              </li>
+                </ul>
+              </div>
+            </li>
+            <!-- Notification dropdown end-->
+            <!-- Bookmark dropdown start-->
+            <li class="relative dropdown">
+              <div class="box-wrapper">
+                <div class="icbu mr-[-1px] mb-[-2px]"><span class="iconlyBulk-Bookmark"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></div>
+              </div>
+              <div class="dropdown-menu mt-3 p-0">
+                <ul class="top-0 p-6 dark:bg-mode-300 w-[300px] sm:px-5">
+                  <li class="flex justify-between items-center pb-4"> 
+                    <h6 class="font-medium">Bookmark</h6>
+                  </li>
+                  <li class="pt-4 border-t border-light">
+                    <input class="form-input w-full" type="text" placeholder="Search for bookmark">
+                    <ul class="pt-4">
+                                  <li class="py-1 flex items-center"><a class="flex items-center" href="email-app.html">
+                                      <div class="icbu mr-3 inline-block"><span class="iconlyBulk-Message"><span class="path1 text-[20px]"></span><span class="path2 text-[20px]"></span></span></div><span class="inline-block">Email</span></a><i class="iconly-Star icli text-gray-500 ml-auto text-warning text-[16px]"></i></li>
+                                  <li class="py-1 flex items-center"><a class="flex items-center" href="feather-icon.html">
+                                      <div class="icbu mr-3 inline-block"><span class="iconlyBulk-Logout"><span class="path1 text-[20px]"></span><span class="path2 text-[20px]"></span></span></div><span class="inline-block">Feather icon</span></a><i class="iconly-Star icli text-gray-500 ml-auto  text-[16px]"></i></li>
+                                  <li class="py-1 flex items-center"><a class="flex items-center" href="chat-app.html">
+                                      <div class="icbu mr-3 inline-block"><span class="iconlyBulk-Chat"><span class="path1 text-[20px]"></span><span class="path2 text-[20px]"></span></span></div><span class="inline-block">Chat</span></a><i class="iconly-Star icli text-gray-500 ml-auto  text-[16px]"></i></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <!-- Bookmark dropdown end-->
+            <li>
+              <div class="box-wrapper">
+                <div id="dark-mode"><span class="icbu mr-[-1px] mb-[-2px]"><span class="iconlyBulk-Star"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></span>
+                </div>
+              </div>
+            </li>
+            <!-- Cart dropdown start-->
+            <li class="relative dropdown">
+              <div class="box-wrapper"><span class="icbu mr-[-1px] mb-[-2px]"><span class="iconlyBulk-Bag"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></span>
+              </div>
+              <div class="dropdown-menu mt-3 p-0 sm:left-2.5">
+                <ul class="top-0 p-6 dark:bg-mode-300 w-[410px] sm:w-[300px] sm:px-5">
+                  <li class="flex justify-between items-center pb-4">
+                    <h6 class="font-medium">Cart</h6><a class="text-primary underline decoration-solid" href="cart.html">Check all</a>
+                  </li>
+                              <li class="flex py-4 border-t border-light gap-5 sm:gap-3"><img class="rounded h-10 w-[50px] sm:w-[40px] sm:h-[30px]" src="../../assets/images/product/1.jpg" alt="product">
+                                <div class="flex-auto">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="product.html">Mi Watch Revolve</a></h6>
+                                  <p class="text-2xs text-primary">$ 10.00</p>
+                                </div>
+                                <input class="text-gray-500 w-10 px-2 py-1 border h-7 border-gray-400 rounded dark:bg-mode-100 dark:border-mode-200" type="text" value="1"><i class="iconly-Delete icli"></i>
+                              </li>
+                              <li class="flex py-4 border-t border-light gap-5 sm:gap-3"><img class="rounded h-10 w-[50px] sm:w-[40px] sm:h-[30px]" src="../../assets/images/product/2.jpg" alt="product">
+                                <div class="flex-auto">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="product.html">Ulrich Duffel Bag</a></h6>
+                                  <p class="text-2xs text-primary">$140.00</p>
+                                </div>
+                                <input class="text-gray-500 w-10 px-2 py-1 border h-7 border-gray-400 rounded dark:bg-mode-100 dark:border-mode-200" type="text" value="1"><i class="iconly-Delete icli"></i>
+                              </li>
+                              <li class="flex py-4 border-t border-light gap-5 sm:gap-3"><img class="rounded h-10 w-[50px] sm:w-[40px] sm:h-[30px]" src="../../assets/images/product/3.jpg" alt="product">
+                                <div class="flex-auto">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="product.html">Tree Stylish Pot</a></h6>
+                                  <p class="text-2xs text-primary">$ 840.00</p>
+                                </div>
+                                <input class="text-gray-500 w-10 px-2 py-1 border h-7 border-gray-400 rounded dark:bg-mode-100 dark:border-mode-200" type="text" value="1"><i class="iconly-Delete icli"></i>
+                              </li>
+                  <li class="flex py-4 border-t border-light justify-between">
+                    <h6 class="font-medium text-gray-500">Total</h6>
+                    <h6 class="font-medium">$ 990.00</h6>
+                  </li>
+                  <li><a class="btn btn-primary w-full block" href="checkout.html">Proceed to checkout</a></li>
+                </ul>
+              </div>
+            </li>
+            <!-- Cart dropdown end-->
+            <!-- Message dropdown start-->
+            <li class="relative dropdown">
+              <div class="box-wrapper">
+                <div class="icbu mr-[-1px] mb-[-2px]"><span class="iconlyBulk-Message"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></div>
+              </div>
+              <div class="dropdown-menu mt-3 p-0">
+                <ul class="top-0 p-6 dark:bg-mode-300 w-[410px] sm:w-[300px] sm:px-5">
+                  <li class="flex justify-between items-center pb-4">
+                    <h6 class="font-medium">Messages</h6><a class="text-primary underline decoration-solid" href="email-app.html">Send a new message</a>
+                  </li>
+                              <li class="flex py-4 border-t border-light">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:h-[35px]"><img class="mx-auto" src="../../assets/images/users/1.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1"><a class="text-xs font-medium" href="email-app.html">Robert fox</a></h6>
+                                  <p class="text-2xs text-gray-500 mb-2">Lorem Ipsum is simply dummy give information</p><span class="text-gray-500 opacity-50">10 mins ago</span>
+                                </div><span class="text-success">online</span>
+                              </li>
+                              <li class="flex py-4 border-t border-light">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:h-[35px]"><img class="mx-auto" src="../../assets/images/users/5.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1"><a class="text-xs font-medium" href="email-app.html">Andrew Young</a></h6>
+                                  <p class="text-2xs text-gray-500 mb-2">Lorem Ipsum is simply dummy give information</p><span class="text-gray-500 opacity-50">25 mins ago</span>
+                                </div><span class="text-warning">warning</span>
+                              </li>
+                              <li class="flex py-4 border-t border-light pb-0">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:h-[35px]"><img class="mx-auto" src="../../assets/images/users/4.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1"><a class="text-xs font-medium" href="email-app.html">Lucia Slaughter</a></h6>
+                                  <p class="text-2xs text-gray-500 mb-2">Lorem Ipsum is simply dummy give information</p><span class="text-gray-500 opacity-50">1 hr ago</span>
+                                </div><span class="text-success">online</span>
+                              </li>
+                </ul>
+              </div>
+            </li>
+            <!-- Message dropdown end-->
+            <li class="relative dropdown">
+              <div class="flex items-center gap-4 sm:w-auto lg:gap-3"><img class="w-10 h-10 rounded object-cover md:w-[39px] md:h-[39px] md:min-w-[39px] sm:min-w-[27px] sm:w-[27px] sm:h-[27px]" src="https://admin.pixelstrap.com/roxo/assets/images/user_image.svg" alt="user image">
+                <div class="md:hidden w-[128px]">
+                  <h6 class="text-xs font-medium">Helen Walter</h6><span class="text-2xs text-gray-500">Admin</span>
+                </div>
+              </div>
+              <div class="dropdown-menu mt-3 p-0">
+                <ul class="top-0 w-40 dark:bg-mode-300">
+                  <li class="px-4 py-2 border-t border-light"><a class="flex items-center w-full" href="email-app.html"><span class="icbu mr-2"><span class="iconlyBulk-Message"><span class="path1 text-[24px]"></span><span class="path2 text-[24px]"></span></span></span><span class="text-xs">Inbox</span></a></li>
+                  <li class="px-4 py-2 border-t border-light"><a class="flex items-center w-full" href="todo-app.html"><span class="icbu mr-2"><span class="iconlyBulk-Paper"><span class="path1 text-[24px]"></span><span class="path2 text-[24px]"></span><span class="path3 text-[24px]"></span></span></span><span class="text-xs">Taskboard</span></a></li>
+                  <li class="px-4 py-2 border-t border-light"><a class="flex items-center w-full" href="javascript:void(0)"><span class="icbu mr-2"><span class="iconlyBulk-Login"><span class="path1 text-[24px]"></span><span class="path2 text-[24px]"></span></span></span><span class="text-xs">Log out </span></a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <!-- Page Header end -->
+      <div class="page-body-wrapper">
+        <!-- Page sidebar start-->
+        <aside class="page-sidebar">
+          <div class="logo-wrapper"><a href="index.html"> <img class="logo-full" src="https://admin.pixelstrap.com/roxo/assets/images/logo/logo.svg" alt="logo"><img class="mx-auto logo-icon" src="https://admin.pixelstrap.com/roxo/assets/images/logo/logo-1.svg" alt="logo"></a>
+            <button class="sidebar-close-icon"><i class="stroke-white w-24px h-[24px]" data-feather="x"></i></button>
+          </div>
+          <nav class="sidebar-main"> 
+            <ul class="sidebar-links">
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                  <div class="icbu"><span class="iconlyBulk-Home text-[22px] lg:text-[20px]"> </span></div><span class="sidebar-name">Dashboards </span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="index.html">Default</a></li>
+                  <li><a href="education.html">Education</a></li>
+                  <li><a href="ecommerce.html">Ecommerce </a></li>
+                  <li><a href="crypto.html">Crypto</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="widgets.html">
+                  <div class="icbu"><span class="iconlyBulk-Activity"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Widgets</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                  <div class="icbu"> <span class="iconlyBulk-Graph"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Ui kits</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="typography.html">Typography</a></li>
+                  <li><a href="avatars.html">Avatars</a></li>
+                  <li><a href="buttons.html">Buttons</a></li>
+                  <li><a href="badge.html">Badge</a></li>
+                  <li><a href="progress.html">Progress</a></li>
+                  <li><a href="modal.html">Modal</a></li>
+                  <li><a href="alert.html">Alert</a></li>
+                  <li><a href="dropdown.html">Dropdown</a></li>
+                  <li><a href="collapse.html">Collapse</a></li>
+                  <li><a href="tooltip.html">Tooltip</a></li>
+                  <li><a href="divider.html">Divider</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="#">
+                  <div class="icbu"> <span class="iconlyBulk-Buy"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Ecommerce</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="product.html">Product</a></li>
+                  <li><a href="cart.html">Cart</a></li>
+                  <li><a href="checkout.html">Checkout</a></li>
+                  <li><a href="invoice.html">Invoice</a></li>
+                  <li><a href="invoice-preview.html">Invoice Preview</a></li>
+                  <li><a href="wishlist.html">Wishlist</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                  <div class="icbu"> <span class="iconlyBulk-Game"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Bonus Ui</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="breadcrumbs.html">Breadcrumbs</a></li>
+                  <li><a href="pagination.html">Pagination</a></li>
+                  <li><a href="carousel.html">Carousel</a></li>
+                  <li><a href="countdown.html">Countdown</a></li>
+                  <li><a href="progress-radial.html">Radial progress</a></li>
+                  <li><a href="swap.html">Swap</a></li>
+                  <li><a href="indicator.html">Indicator</a></li>
+                  <li><a href="mask.html">Mask</a></li>
+                  <li><a href="stack.html">Stack</a></li>
+                  <li><a href="steps.html">Steps</a></li>
+                  <li><a href="tabs.html">Tabs</a></li>
+                  <li><a href="rating.html">Rating</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Wallet"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span><span class="path3 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Form</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="input-textarea.html">Input and Textarea</a></li>
+                  <li><a href="checkbox-radio.html">Checkbox and Radio</a></li>
+                  <li><a href="select.html">Select</a></li>
+                  <li><a href="switch.html">Switch</a></li>
+                  <li><a href="input-group.html">Input Group      </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Folder"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Other Pages</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="register.html">Register</a></li>
+                  <li><a href="reset-password.html">Reset Password</a></li>
+                  <li><a href="coming-soon.html">Coming soon</a></li>
+                  <li><a href="otp.html">Otp</a></li>
+                  <li> <a href="error-404.html">Error 404</a></li>
+                  <li> <a href="forgot-password.html">Forget password  </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Video"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Animation</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="roxo-animation.html">Roxo Animation</a></li>
+                  <li><a href="wow-animation.html">Wow Animation            </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Location"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Map </span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="here-map.html">Here Map</a></li>
+                  <li><a href="data-map.html">Data Map          </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Info-Square"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Icons </span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="feather-icon.html">Feather Icons</a></li>
+                  <li><a href="iconly-icon.html">Iconly Icons </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Ticket"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Apps </span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="todo-app.html">Todo</a></li>
+                  <li><a href="email-app.html">Email                    </a></li>
+                  <li><a href="chat-app.html">Chat               </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Image"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Blog </span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="blog-grid.html">Blog Grid</a></li>
+                  <li><a href="blog-details.html">Blog Detail    </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="gallery.html">
+                  <div class="icbu"><span class="iconlyBulk-Image-2 !flex"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"> </span><span class="path3 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Gallery</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="faqs.html">
+                  <div class="icbu"><span class="iconlyBulk-Password !flex"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"> </span><span class="path3 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Faqs</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="samplepage.html">
+                  <div class="icbu"><span class="iconlyBulk-Paper"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Sample Page</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="swiper-slider.html">
+                  <div class="icbu"><span class="iconlyBulk-Swap !flex rotate-90 origin-center"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"> </span><span class="path3 text-[22px] lg:text-[20px]"> </span><span class="path4 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Swiper Slider</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="tables.html"> 
+                  <div class="icbu"><span class="iconlyBulk-Category"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Tables</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="calender.html"> 
+                  <div class="icbu"><span class="iconlyBulk-Calendar"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span><span class="path3 text-[22px] lg:text-[20px]"></span><span class="path4 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Calender </span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="apex-chart.html"> 
+                  <div class="icbu"><span class="iconlyBulk-Chart"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span><span class="path3 text-[22px] lg:text-[20px]"></span><span class="path4 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Apex Charts </span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="knowledgebase.html"> 
+                  <div class="icbu"><span class="iconlyBulk-Scan"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Knowledgebase</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="kanban-board.html"> 
+                  <div class="icbu"><span class="iconlyBulk-Document !flex"><span class="path1 text-[22px] lg:text-[20px]"> </span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Kanban Board </span></a></li>
+            </ul>
+          </nav>
+        </aside>
+        <!-- Page sidebar end   -->
+        <div class="page-body grid-cols-4">
+                      <div class="page-title">
+                        <div class="grid grid-cols-2 md:gap-3 sm:gap-1 items-center">
+                          <div class="flex flex-col items-start gap-y-[4px] md:col-span-2">
+                            <h2 class="text-3xl capitalize font-medium text-dark 3xl:text-2xl md:mt-[-2px]">Widgets
+                            </h2><span class="text-sm text-primary font-normal tracking-[.25em] 3xl:text-xs 3xl:tracking-[.15em]">ADMIN PANEL</span>
+                          </div>
+                          <div class="ml-auto md:col-span-2 md:ml-0">
+                            <nav class="w-full text-primary">
+                              <ol class="items-center flex breadcrumb"> 
+                                <li><a class="h-7 flex items-center justify-center relative w-[30px]" href="index.html"> 
+                                    <div class="icbu leading-none"><span class="iconlyBulk-Home text-base"></span></div></a></li>
+                                <li class="px-2"><span>/</span></li>
+                                <li class="capitalize font-light active">Widgets</li>
+                              </ol>
+                            </nav>
+                          </div>
+                        </div>
+                      </div>
+          <div class="grid grid-cols-12 gap-card">
+            <div class="col-span-12 lg:col-span-6 md:col-span-12">     
+              <div class="grid grid-cols-12 gap-card">    
+                <div class="col-span-4 lg:col-span-12 md:col-span-12">       
+                  <div class="card">     
+                                <div class="flex items-center justify-between gap-1">
+                                  <div class="flex items-center gap-3">
+                                    <div class="radial-progress  text-primary" style="--value:50; --size:var(--size-md); --thickness: 5px;"> 
+                                      <div class="rounded-full p-4 bg-primaryLight"> 
+                                        <svg class="fill-primary w-[calc(23px_+_(32_-_23)_*_((100vw_-_320px)_/_(1920_-_320)))]  h-[calc(23px_+_(32_-_23)_*_((100vw_-_320px)_/_(1920_-_320)))]">
+                                          <use href="https://admin.pixelstrap.com/roxo/assets/images/icons/sprite.svg#reader"> </use>
+                                        </svg>
+                                      </div>
+                                    </div>
+                                    <div> 
+                                      <h4 class="text-lg text-primary 6xl:text-base md:text-xs sm:text-sm">Students</h4>
+                                      <h3 class="text-2xl font-bold mt-2 6xl:text-lg 2xl:text-base md:text-xs sm:text-sm md:mt-1">328 / 400</h3>
+                                    </div>
+                                  </div>
+                                  <div> <span class="badge block bg-primaryLight rounded-5 leading-none text-primary badge border-none p-2 text-base 2xl:text-xs">50%</span></div>
+                                </div>
+                  </div>
+                </div>
+                <div class="col-span-4 lg:col-span-12 md:col-span-12">       
+                  <div class="card">     
+                                <div class="flex items-center justify-between gap-1">
+                                  <div class="flex items-center gap-3">
+                                    <div class="radial-progress  text-secondary" style="--value:65; --size:var(--size-md); --thickness: 5px;"> 
+                                      <div class="rounded-full p-4 bg-secondaryLight"> 
+                                        <svg class="fill-secondary w-[calc(23px_+_(32_-_23)_*_((100vw_-_320px)_/_(1920_-_320)))]  h-[calc(23px_+_(32_-_23)_*_((100vw_-_320px)_/_(1920_-_320)))]">
+                                          <use href="https://admin.pixelstrap.com/roxo/assets/images/icons/sprite.svg#teacher"> </use>
+                                        </svg>
+                                      </div>
+                                    </div>
+                                    <div> 
+                                      <h4 class="text-lg text-secondary 6xl:text-base md:text-xs sm:text-sm">Teachers</h4>
+                                      <h3 class="text-2xl font-bold mt-2 6xl:text-lg 2xl:text-base md:text-xs sm:text-sm md:mt-1">30 / 35</h3>
+                                    </div>
+                                  </div>
+                                  <div> <span class="badge block bg-primaryLight rounded-5 leading-none text-primary badge border-none p-2 text-base 2xl:text-xs">65%</span></div>
+                                </div>
+                  </div>
+                </div>
+                <div class="col-span-4 lg:col-span-12 md:col-span-12">       
+                  <div class="card">     
+                                <div class="flex items-center justify-between gap-1">
+                                  <div class="flex items-center gap-3">
+                                    <div class="radial-progress  text-success" style="--value:70; --size:var(--size-md); --thickness: 5px;"> 
+                                      <div class="rounded-full p-4 bg-successLight"> 
+                                        <svg class="fill-success w-[calc(23px_+_(32_-_23)_*_((100vw_-_320px)_/_(1920_-_320)))]  h-[calc(23px_+_(32_-_23)_*_((100vw_-_320px)_/_(1920_-_320)))]">
+                                          <use href="https://admin.pixelstrap.com/roxo/assets/images/icons/sprite.svg#users"> </use>
+                                        </svg>
+                                      </div>
+                                    </div>
+                                    <div> 
+                                      <h4 class="text-lg text-success 6xl:text-base md:text-xs sm:text-sm">Staffs</h4>
+                                      <h3 class="text-2xl font-bold mt-2 6xl:text-lg 2xl:text-base md:text-xs sm:text-sm md:mt-1">10 / 30</h3>
+                                    </div>
+                                  </div>
+                                  <div> <span class="badge block bg-primaryLight rounded-5 leading-none text-primary badge border-none p-2 text-base 2xl:text-xs">70%</span></div>
+                                </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-12 lg:col-span-12 md:col-span-12"> 
+              <div class="grid grid-cols-12 gap-card"> 
+                <div class="card col-span-4 md:col-span-12">
+                  <div class="card-body">  
+                                <div> 
+                                  <div class="flex justify-between items-start">
+                                    <div class="flex items-center gap-3 md:gap-2">
+                                      <div>
+                                        <h4 class="font-medium 5xl:text-base md:text-sm">Total Earning </h4>
+                                        <h2 class="font-medium text-gray-500 mt-2 mb-2.5 lg:mb-[14px] 5xl:text-xl 3xl:text-lg sm:text-base md:mt-1 md:mb-2">$3,47.00</h2><span class="font-normal block text-primary">-30% Since last month </span>
+                                      </div>
+                                    </div><span class="badges flex items-center gap-1 rounded-md h-10 w-[50px] md:w-10 md:h-[34px] bg-primaryLight"><i class="w-7 h-7 mx-auto md:w-5 md:h-5 stroke-primary" data-feather="dollar-sign"></i></span>
+                                  </div>
+                                  <div class="mt-[20px] gap-[8px] lg:mt-[16px]">
+                                    <div class="widgets-chart"> 
+                                      <div id="widgetsLineChart1"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                  </div>
+                </div>
+                <div class="card col-span-4 md:col-span-12">
+                  <div class="card-body">  
+                                <div> 
+                                  <div class="flex justify-between items-start">
+                                    <div class="flex items-center gap-3 md:gap-2">
+                                      <div>
+                                        <h4 class="font-medium 5xl:text-base md:text-sm">Total Sales </h4>
+                                        <h2 class="font-medium text-gray-500 mt-2 mb-2.5 lg:mb-[14px] 5xl:text-xl 3xl:text-lg sm:text-base md:mt-1 md:mb-2">$3,47.00</h2><span class="font-normal block text-warning">-30% Since last month </span>
+                                      </div>
+                                    </div><span class="badges flex items-center gap-1 rounded-md h-10 w-[50px] md:w-10 md:h-[34px] bg-warningLight"><i class="w-7 h-7 mx-auto md:w-5 md:h-5 stroke-warning" data-feather="shopping-cart"></i></span>
+                                  </div>
+                                  <div class="mt-[20px] gap-[8px] lg:mt-[16px]">
+                                    <div class="widgets-chart"> 
+                                      <div id="widgetsLineChart2"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                  </div>
+                </div>
+                <div class="card col-span-4 md:col-span-12">
+                  <div class="card-body">  
+                                <div> 
+                                  <div class="flex justify-between items-start">
+                                    <div class="flex items-center gap-3 md:gap-2">
+                                      <div>
+                                        <h4 class="font-medium 5xl:text-base md:text-sm">Total Visitors </h4>
+                                        <h2 class="font-medium text-gray-500 mt-2 mb-2.5 lg:mb-[14px] 5xl:text-xl 3xl:text-lg sm:text-base md:mt-1 md:mb-2">$3,47.00</h2><span class="font-normal block text-success">-30% Since last month </span>
+                                      </div>
+                                    </div><span class="badges flex items-center gap-1 rounded-md h-10 w-[50px] md:w-10 md:h-[34px] bg-successLight"><i class="w-7 h-7 mx-auto md:w-5 md:h-5 stroke-success" data-feather="users"></i></span>
+                                  </div>
+                                  <div class="mt-[20px] gap-[8px] lg:mt-[16px]">
+                                    <div class="widgets-chart"> 
+                                      <div id="widgetsLineChart3"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card col-span-3 3xl:col-span-6 sm:col-span-12 md:-order-2"> 
+              <div class="card-body">    
+                            <div> 
+                              <div class="flex justify-between items-center">
+                                <div class="flex items-center gap-3 md:gap-2">
+                                  <div class="relative flex items-center justify-center rounded-5 overflow-hidden">
+                                    <div class="absolute bg-primaryLight inset-0 rounded-5 z-[1] dark:bg-mode-100"></div><img class="relative z-[2] w-[calc(35px_+_(44_-_35)_*_((100vw_-_320px)_/_(1920_-_320)))] dark:filter dark:brightness-0 dark:invert-75" src="../../assets/images/icons/1.png" alt="icon">
+                                  </div>
+                                  <div>
+                                    <h5 class="text-sm font-medium text-primary">Total Sale </h5>
+                                  </div>
+                                </div><span class="badges flex items-center gap-1 bg-primaryLight"><i class="w-[14px] h-[14px] stroke-primary" data-feather="arrow-up"></i><span class="text-3xs leading-none font-medium text-primary">7.5%</span></span>
+                              </div>
+                              <div class="flex justify-between items-end mt-[20px] gap-[8px] lg:mt-[16px]">
+                                <div>
+                                  <h4 class="text-2xl font-bold mb-[18px] 3xl:text-xl lg:text-[20px] lg:mb-[14px] sm:text-base">$821,356</h4><span class="font-normal block whitespace-nowrap text-primary">85% <span class="font-normal text-dark dark:opacity-50">goal reached</span></span>
+                                </div>
+                                <div class="widgets-chart"> 
+                                  <div id="widgetsBarChart1"></div>
+                                </div>
+                              </div>
+                            </div>
+              </div>
+            </div>
+            <div class="card col-span-3 3xl:col-span-6 sm:col-span-12 md:-order-2"> 
+              <div class="card-body">    
+                            <div> 
+                              <div class="flex justify-between items-center">
+                                <div class="flex items-center gap-3 md:gap-2">
+                                  <div class="relative flex items-center justify-center rounded-5 overflow-hidden">
+                                    <div class="absolute bg-primaryLight inset-0 rounded-5 z-[1] dark:bg-mode-100"></div><img class="relative z-[2] w-[calc(35px_+_(44_-_35)_*_((100vw_-_320px)_/_(1920_-_320)))] dark:filter dark:brightness-0 dark:invert-75" src="../../assets/images/icons/2.png" alt="icon">
+                                  </div>
+                                  <div>
+                                    <h5 class="text-sm font-medium text-primary">Total income </h5>
+                                  </div>
+                                </div><span class="badges flex items-center gap-1 bg-secondaryLight"><i class="w-[14px] h-[14px] stroke-secondary" data-feather="arrow-down"></i><span class="text-3xs leading-none font-medium text-secondary">6.9%</span></span>
+                              </div>
+                              <div class="flex justify-between items-end mt-[20px] gap-[8px] lg:mt-[16px]">
+                                <div>
+                                  <h4 class="text-2xl font-bold mb-[18px] 3xl:text-xl lg:text-[20px] lg:mb-[14px] sm:text-base">$951,356</h4><span class="font-normal block whitespace-nowrap text-secondary">72% <span class="font-normal text-dark dark:opacity-50">goal reached</span></span>
+                                </div>
+                                <div class="widgets-chart"> 
+                                  <div id="widgetsBarChart2"></div>
+                                </div>
+                              </div>
+                            </div>
+              </div>
+            </div>
+            <div class="card col-span-3 3xl:col-span-6 sm:col-span-12 md:-order-2"> 
+              <div class="card-body">    
+                            <div> 
+                              <div class="flex justify-between items-center">
+                                <div class="flex items-center gap-3 md:gap-2">
+                                  <div class="relative flex items-center justify-center rounded-5 overflow-hidden">
+                                    <div class="absolute bg-primaryLight inset-0 rounded-5 z-[1] dark:bg-mode-100"></div><img class="relative z-[2] w-[calc(35px_+_(44_-_35)_*_((100vw_-_320px)_/_(1920_-_320)))] dark:filter dark:brightness-0 dark:invert-75" src="../../assets/images/icons/3.png" alt="icon">
+                                  </div>
+                                  <div>
+                                    <h5 class="text-sm font-medium text-primary">Active User </h5>
+                                  </div>
+                                </div><span class="badges flex items-center gap-1 bg-warningLight"><i class="w-[14px] h-[14px] stroke-warning" data-feather="arrow-up"></i><span class="text-3xs leading-none font-medium text-warning">7.1%</span></span>
+                              </div>
+                              <div class="flex justify-between items-end mt-[20px] gap-[8px] lg:mt-[16px]">
+                                <div>
+                                  <h4 class="text-2xl font-bold mb-[18px] 3xl:text-xl lg:text-[20px] lg:mb-[14px] sm:text-base">$721,356</h4><span class="font-normal block whitespace-nowrap text-warning">78% <span class="font-normal text-dark dark:opacity-50">goal reached</span></span>
+                                </div>
+                                <div class="widgets-chart"> 
+                                  <div id="widgetsBarChart3"></div>
+                                </div>
+                              </div>
+                            </div>
+              </div>
+            </div>
+            <div class="card col-span-3 3xl:col-span-6 sm:col-span-12 md:-order-2"> 
+              <div class="card-body">    
+                            <div> 
+                              <div class="flex justify-between items-center">
+                                <div class="flex items-center gap-3 md:gap-2">
+                                  <div class="relative flex items-center justify-center rounded-5 overflow-hidden">
+                                    <div class="absolute bg-primaryLight inset-0 rounded-5 z-[1] dark:bg-mode-100"></div><img class="relative z-[2] w-[calc(35px_+_(44_-_35)_*_((100vw_-_320px)_/_(1920_-_320)))] dark:filter dark:brightness-0 dark:invert-75" src="../../assets/images/icons/4.png" alt="icon">
+                                  </div>
+                                  <div>
+                                    <h5 class="text-sm font-medium text-primary">Total Tax </h5>
+                                  </div>
+                                </div><span class="badges flex items-center gap-1 bg-successLight"><i class="w-[14px] h-[14px] stroke-success" data-feather="arrow-down"></i><span class="text-3xs leading-none font-medium text-success">6.9%</span></span>
+                              </div>
+                              <div class="flex justify-between items-end mt-[20px] gap-[8px] lg:mt-[16px]">
+                                <div>
+                                  <h4 class="text-2xl font-bold mb-[18px] 3xl:text-xl lg:text-[20px] lg:mb-[14px] sm:text-base">$921,356</h4><span class="font-normal block whitespace-nowrap text-success">72% <span class="font-normal text-dark dark:opacity-50">goal reached</span></span>
+                                </div>
+                                <div class="widgets-chart"> 
+                                  <div id="widgetsBarChart4"></div>
+                                </div>
+                              </div>
+                            </div>
+              </div>
+            </div>
+            <div class="col-span-8 4xl:col-span-12 lg:col-span-6 lg:order-first md:col-span-12">       
+              <div class="grid grid-cols-2 gap-card lg:grid-cols-1">      
+                <div class="col-span-1">
+                  <div class="card px-[28px] py-[40px] 6xl:py-[34px] 5xl:px-[26px] 5xl:py-[30px] lg:py-[22px] lg:px-card-spacing">              
+                                <div class="flex items-center justify-between gap-[10px]">
+                                  <div class="flex gap-[10px] 4xl:gap-[8px] items-center"> 
+                                    <div class="rounded-[10px] 3sm:rounded-[5px] 6xl:py-[14px] 6xl:px-[18px] 4xl:py-[14px] 4xl:px-[18px] 5xl:py-[10px] 5xl:px-[14px] 4xl:py-[11px] 4xl:px-[12px] 3sm:py-[9px] 3sm:px-[9px] py-[18px] px-[22px] bg-primaryLight">
+                                      <svg class="fill-primary 6xl:w-[28px] 6xl:h-[28px] 5xl:w-[24px] 5xl:h-[24px] 4xl:w-[28px] 4xl:h-[28px] lg:w-[20px] lg:h-[20px] w-[34px] h-[34px] md:w-[28px] md:h-[28px] sm:w-[20px] sm:h-[20px]">  
+                                        <use href="https://admin.pixelstrap.com/roxo/assets/images/icons/sprite.svg#bitcoin2">   </use>
+                                      </svg>
+                                    </div>
+                                    <div>
+                                      <h3 class="text-lg font-bold 6xl:text-base 5xl:text-sm 4xl:text-base lg:text-xs md:text-sm sm:text-xs">BTC</h3><span class="block text-base 6xl:text-xs 5xl:text-sm 4xl:text-base lg:text-xs md:text-sm sm:text-xs font-normal text-gray-500 6xl:mt-1 mt-[6px] xl:mt-[3px]">+1,6%</span>
+                                    </div>
+                                  </div>
+                                  <div class="4xl:w-[200px] 2xl:w-[130px] xl:w-[110px] md:w-[calc(100%_-_320px)] sm:w-[calc(100%_-_215px)] 3sm:w-[calc(100%_-_195px)] w-[120px]" id="widgets4_1"></div>
+                                  <div>
+                                    <h3 class="text-lg font-bold 6xl:text-base 5xl:text-sm 4xl:text-base lg:text-xs md:text-sm sm:text-xs">$ 29,850.15</h3><span class="block 6xl:text-xs text-base 5xl:text-sm 4xl:text-base lg:text-xs md:text-sm sm:text-xs font-normal 6xl:mt-1 text-gray-500 mt-[6px] xl:mt-[3px]">2.73 BTC</span>
+                                  </div>
+                                </div>
+                  </div>
+                </div>
+                <div class="col-span-1">
+                  <div class="card px-[28px] py-[40px] 6xl:py-[34px] 5xl:px-[26px] 5xl:py-[30px] lg:py-[22px] lg:px-card-spacing">              
+                                <div class="flex items-center justify-between gap-[10px]">
+                                  <div class="flex gap-[10px] 4xl:gap-[8px] items-center"> 
+                                    <div class="rounded-[10px] 3sm:rounded-[5px] 6xl:py-[14px] 6xl:px-[18px] 4xl:py-[14px] 4xl:px-[18px] 5xl:py-[10px] 5xl:px-[14px] 4xl:py-[11px] 4xl:px-[12px] 3sm:py-[9px] 3sm:px-[9px] py-[18px] px-[22px] bg-secondaryLight">
+                                      <svg class="fill-secondary 6xl:w-[28px] 6xl:h-[28px] 5xl:w-[24px] 5xl:h-[24px] 4xl:w-[28px] 4xl:h-[28px] lg:w-[20px] lg:h-[20px] w-[34px] h-[34px] md:w-[28px] md:h-[28px] sm:w-[20px] sm:h-[20px]">  
+                                        <use href="https://admin.pixelstrap.com/roxo/assets/images/icons/sprite.svg#ethereum">   </use>
+                                      </svg>
+                                    </div>
+                                    <div>
+                                      <h3 class="text-lg font-bold 6xl:text-base 5xl:text-sm 4xl:text-base lg:text-xs md:text-sm sm:text-xs">ETH</h3><span class="block text-base 6xl:text-xs 5xl:text-sm 4xl:text-base lg:text-xs md:text-sm sm:text-xs font-normal text-gray-500 6xl:mt-1 mt-[6px] xl:mt-[3px]">-0,82%</span>
+                                    </div>
+                                  </div>
+                                  <div class="4xl:w-[200px] 2xl:w-[130px] xl:w-[110px] md:w-[calc(100%_-_320px)] sm:w-[calc(100%_-_215px)] 3sm:w-[calc(100%_-_195px)] w-[120px]" id="widgets4_2"></div>
+                                  <div>
+                                    <h3 class="text-lg font-bold 6xl:text-base 5xl:text-sm 4xl:text-base lg:text-xs md:text-sm sm:text-xs">$ 25,550.15</h3><span class="block 6xl:text-xs text-base 5xl:text-sm 4xl:text-base lg:text-xs md:text-sm sm:text-xs font-normal 6xl:mt-1 text-gray-500 mt-[6px] xl:mt-[3px]">3.53 BTC</span>
+                                  </div>
+                                </div>
+                  </div>
+                </div>
+                <div class="col-span-1">
+                  <div class="card px-[28px] py-[40px] 6xl:py-[34px] 5xl:px-[26px] 5xl:py-[30px] lg:py-[22px] lg:px-card-spacing">              
+                                <div class="flex items-center justify-between gap-[10px]">
+                                  <div class="flex gap-[10px] 4xl:gap-[8px] items-center"> 
+                                    <div class="rounded-[10px] 3sm:rounded-[5px] 6xl:py-[14px] 6xl:px-[18px] 4xl:py-[14px] 4xl:px-[18px] 5xl:py-[10px] 5xl:px-[14px] 4xl:py-[11px] 4xl:px-[12px] 3sm:py-[9px] 3sm:px-[9px] py-[18px] px-[22px] bg-warningLight">
+                                      <svg class="fill-warning 6xl:w-[28px] 6xl:h-[28px] 5xl:w-[24px] 5xl:h-[24px] 4xl:w-[28px] 4xl:h-[28px] lg:w-[20px] lg:h-[20px] w-[34px] h-[34px] md:w-[28px] md:h-[28px] sm:w-[20px] sm:h-[20px]">  
+                                        <use href="https://admin.pixelstrap.com/roxo/assets/images/icons/sprite.svg#litecoin2">   </use>
+                                      </svg>
+                                    </div>
+                                    <div>
+                                      <h3 class="text-lg font-bold 6xl:text-base 5xl:text-sm 4xl:text-base lg:text-xs md:text-sm sm:text-xs">LTC</h3><span class="block text-base 6xl:text-xs 5xl:text-sm 4xl:text-base lg:text-xs md:text-sm sm:text-xs font-normal text-gray-500 6xl:mt-1 mt-[6px] xl:mt-[3px]">+2,5%</span>
+                                    </div>
+                                  </div>
+                                  <div class="4xl:w-[200px] 2xl:w-[130px] xl:w-[110px] md:w-[calc(100%_-_320px)] sm:w-[calc(100%_-_215px)] 3sm:w-[calc(100%_-_195px)] w-[120px]" id="widgets4_3"></div>
+                                  <div>
+                                    <h3 class="text-lg font-bold 6xl:text-base 5xl:text-sm 4xl:text-base lg:text-xs md:text-sm sm:text-xs">$ 22,230.25</h3><span class="block 6xl:text-xs text-base 5xl:text-sm 4xl:text-base lg:text-xs md:text-sm sm:text-xs font-normal 6xl:mt-1 text-gray-500 mt-[6px] xl:mt-[3px]">2.73 LTC</span>
+                                  </div>
+                                </div>
+                  </div>
+                </div>
+                <div class="col-span-1">
+                  <div class="card px-[28px] py-[40px] 6xl:py-[34px] 5xl:px-[26px] 5xl:py-[30px] lg:py-[22px] lg:px-card-spacing">              
+                                <div class="flex items-center justify-between gap-[10px]">
+                                  <div class="flex gap-[10px] 4xl:gap-[8px] items-center"> 
+                                    <div class="rounded-[10px] 3sm:rounded-[5px] 6xl:py-[14px] 6xl:px-[18px] 4xl:py-[14px] 4xl:px-[18px] 5xl:py-[10px] 5xl:px-[14px] 4xl:py-[11px] 4xl:px-[12px] 3sm:py-[9px] 3sm:px-[9px] py-[18px] px-[22px] bg-successLight">
+                                      <svg class="fill-success 6xl:w-[28px] 6xl:h-[28px] 5xl:w-[24px] 5xl:h-[24px] 4xl:w-[28px] 4xl:h-[28px] lg:w-[20px] lg:h-[20px] w-[34px] h-[34px] md:w-[28px] md:h-[28px] sm:w-[20px] sm:h-[20px]">  
+                                        <use href="https://admin.pixelstrap.com/roxo/assets/images/icons/sprite.svg#spinier">   </use>
+                                      </svg>
+                                    </div>
+                                    <div>
+                                      <h3 class="text-lg font-bold 6xl:text-base 5xl:text-sm 4xl:text-base lg:text-xs md:text-sm sm:text-xs">BTC</h3><span class="block text-base 6xl:text-xs 5xl:text-sm 4xl:text-base lg:text-xs md:text-sm sm:text-xs font-normal text-gray-500 6xl:mt-1 mt-[6px] xl:mt-[3px]">+5,5%</span>
+                                    </div>
+                                  </div>
+                                  <div class="4xl:w-[200px] 2xl:w-[130px] xl:w-[110px] md:w-[calc(100%_-_320px)] sm:w-[calc(100%_-_215px)] 3sm:w-[calc(100%_-_195px)] w-[120px]" id="widgets4_4"></div>
+                                  <div>
+                                    <h3 class="text-lg font-bold 6xl:text-base 5xl:text-sm 4xl:text-base lg:text-xs md:text-sm sm:text-xs">$ 29,850.15</h3><span class="block 6xl:text-xs text-base 5xl:text-sm 4xl:text-base lg:text-xs md:text-sm sm:text-xs font-normal 6xl:mt-1 text-gray-500 mt-[6px] xl:mt-[3px]">2.73 BTC</span>
+                                  </div>
+                                </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-4 grid grid-cols-2 gap-card 4xl:col-span-6 md:col-span-12 md:-order-4"> 
+              <div class="col-span-2 md:col-span-1 2md:col-span-2 "> 
+                <div class="card">  
+                              <div>
+                                <div class="flex items-start justify-between gap-1">
+                                  <div class="flex items-center gap-4 6xl:gap-3 2sm:gap-2">
+                                    <div class="rounded-5 overflow-hidden w-[87px] 6xl:w-[70px] xl:w-[60px] md:w-[100px]  h-auto"><img class="object-cover" src="../../assets/images/card/1.jpg" alt="Complete python Bootcamp"></div>
+                                    <div class="min-w-[calc(100%_-_103px)]"> 
+                                      <h6 class="text-base font-normal text-dark 6xl:text-sm 3sm:text-xs">Complete python Bootcamp</h6>
+                                    </div>
+                                  </div>
+                                  <div>
+                                                <div class="group relative"><span class="icbu my-[-6px] 5xl:mt-[-3px] mr-[-3px] cursor-pointer"><span class="iconlyBulk-More-Square"><span class="path1 text-[34px] 5xl:text-[25px] text-primary "></span><span class="path2 text-[34px] 5xl:text-[25px] text-primary "></span></span></span>
+                                                  <div class="dropdown-menu group-hover:top-[34px] top-[32px]">
+                                                    <ul class="flex flex-col gap-1">
+                                                      <li class="cursor-pointer transition-all hover:translate-x-1 hover:text-primary"><span class="whitespace-nowrap">Recent</span></li>
+                                                      <li class="cursor-pointer transition-all hover:translate-x-1 hover:text-primary"><span class="whitespace-nowrap">Last 2 Days</span></li>
+                                                      <li class="cursor-pointer transition-all hover:translate-x-1 hover:text-primary"><span class="whitespace-nowrap">Last 2 Week</span></li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                  </div>
+                                </div>
+                                <div class="flex items-end gap-2 justify-between mt-[20px] 2xl:mt-[14px]">
+                                  <div><span class="text-3xs text-gray-500 font-normal block">Author </span>
+                                    <h5 class="text-xs font-medium text-dark whitespace-nowrap mb-[-3px] 2sm:mb-[-1px] 2sm:text-2xs">Nathan Math</h5>
+                                  </div>
+                                  <div class="flex flex-col items-end gap-3 w-[65%]"><span class="block text-base font-normal text-right text-primary 5xl:text-sm 2sm:text-xs ">60%</span>
+                                    <div class="progress-bar w-full h-3">
+                                      <div class="progress-primary 2sm:h-[10px] h-full" style="width:60%;"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                </div>
+              </div>
+              <div class="col-span-2 md:col-span-1 2md:col-span-2">
+                <div class="card">  
+                              <div>
+                                <div class="flex items-start justify-between gap-1">
+                                  <div class="flex items-center gap-4 6xl:gap-3 2sm:gap-2">
+                                    <div class="rounded-5 overflow-hidden w-[87px] 6xl:w-[70px] xl:w-[60px] md:w-[100px]  h-auto"><img class="object-cover" src="../../assets/images/card/2.jpg" alt="illustrator cc 2022 Master Class"></div>
+                                    <div class="min-w-[calc(100%_-_103px)]"> 
+                                      <h6 class="text-base font-normal text-dark 6xl:text-sm 3sm:text-xs">illustrator cc 2022 Master Class</h6>
+                                    </div>
+                                  </div>
+                                  <div>
+                                                <div class="group relative"><span class="icbu my-[-6px] 5xl:mt-[-3px] mr-[-3px] cursor-pointer"><span class="iconlyBulk-More-Square"><span class="path1 text-[34px] 5xl:text-[25px] text-primary "></span><span class="path2 text-[34px] 5xl:text-[25px] text-primary "></span></span></span>
+                                                  <div class="dropdown-menu group-hover:top-[34px] top-[32px]">
+                                                    <ul class="flex flex-col gap-1">
+                                                      <li class="cursor-pointer transition-all hover:translate-x-1 hover:text-primary"><span class="whitespace-nowrap">Recent</span></li>
+                                                      <li class="cursor-pointer transition-all hover:translate-x-1 hover:text-primary"><span class="whitespace-nowrap">Last 2 Days</span></li>
+                                                      <li class="cursor-pointer transition-all hover:translate-x-1 hover:text-primary"><span class="whitespace-nowrap">Last 2 Week</span></li>
+                                                    </ul>
+                                                  </div>
+                                                </div>
+                                  </div>
+                                </div>
+                                <div class="flex items-end gap-2 justify-between mt-[20px] 2xl:mt-[14px]">
+                                  <div><span class="text-3xs text-gray-500 font-normal block">Author </span>
+                                    <h5 class="text-xs font-medium text-dark whitespace-nowrap mb-[-3px] 2sm:mb-[-1px] 2sm:text-2xs">Betty Hanson</h5>
+                                  </div>
+                                  <div class="flex flex-col items-end gap-3 w-[65%]"><span class="block text-base font-normal text-right text-secondary 5xl:text-sm 2sm:text-xs ">75%</span>
+                                    <div class="progress-bar w-full h-3">
+                                      <div class="progress-secondary 2sm:h-[10px] h-full" style="width:75%;"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-6 4xl:order-last 4xl:col-span-12">
+              <div class="card">   
+                <div class="flex items-center justify-between"> 
+                  <div class="flex flex-col items-start gap-[8px] xl:gap-[4px]"> <span class="lg:text-sm text-base xl:text-sm 3xl:text-sm sm:text-xs font-normal text-gray-500 xl:mt-[-3px] mt-[-5px]">Our Distributed  </span>
+                    <h3 class="3xl:text-lg xl:text-base lg:text-sm sm:text-xs font-medium text-dark">4,562,737 CIC</h3>
+                  </div>
+                  <div class="flex flex-col items-end gap-[8px] xl:gap-[4px]"><span class="text-base xl:text-sm lg:text-sm 3xl:text-sm sm:text-xs font-normal text-gray-500 xl:mt-[-3px] mt-[-5px]">Our Contributed</span>
+                    <h3 class="3xl:text-lg xl:text-base lg:text-sm font-medium sm:text-xs text-dark">3798 ETH 70 VTH </h3>
+                  </div>
+                </div>
+                            <div class="progress-showcase">
+                              <div class="progress sm-progress-bar progress-animate">
+                                <div class="progress-gradient-primary" role="progressbar" style="width:60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"><span class="animate-circle"></span><span class="progress-tooltip"> <span class="relative px-[12px] py-[5px] bg-primary rounded-xl text-white">
+                                       3.5
+                                      <svg class="fill-primary w-[16px] h-[8px] absolute top-[-7px] left-1/2 -translate-x-1/2 ">  
+                                        <use href="https://admin.pixelstrap.com/roxo/assets/images/icons/sprite.svg#arrow">   </use>
+                                      </svg></span></span></div>
+                              </div>
+                              <div class="flex items-center justify-between mt-2"><span class="block text-base font-medium text-dark 3xl:text-sm lg:text-xs">$10</span><span class="block text-base font-medium text-dark 3xl:text-sm lg:text-xs">$5M</span></div>
+                            </div>
+              </div>
+            </div>
+            <div class="col-span-6 md:col-span-12">
+              <div class="grid grid-cols-2 gap-card md:col-span-1 sm:col-span-2 ">
+                <div class="card col-span-1 4xl:col-span-2  md:col-span-1 2md:col-span-2">
+                  <div class="card-header border-bottom-none">
+                                <div class="flex items-center justify-between w-full">
+                                  <h3 class="font-medium text-dark 3xl:text-lg sm:text-base truncate w-[85%]">Total Review</h3><span class="flex items-center justify-center rounded-5 bg-primaryLight p-[8px]"><i class="w-[20px] 3xl:w-[16px] h-[20px] 3xl:h-[16px]" data-feather="thumbs-up"></i></span>
+                                </div>
+                  </div>
+                  <div class="card-body">  
+                    <div class="overflow-hidden" id="lineCharReview"></div><span class="text-xs text-gray-500 font-normal block mb-[-3px]">Customer Review                  </span>
+                  </div>
+                </div>
+                <div class="card col-span-1 4xl:col-span-2  md:col-span-1 2md:col-span-2">
+                  <div class="card-header border-bottom-none"> 
+                                <div class="flex items-center justify-between w-full">
+                                  <h3 class="font-medium text-dark 3xl:text-lg sm:text-base truncate w-[85%]">Total Feedback</h3><span class="flex items-center justify-center rounded-5 bg-primaryLight p-[8px]"><i class="w-[20px] 3xl:w-[16px] h-[20px] 3xl:h-[16px]" data-feather="message-square"></i></span>
+                                </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="overflow-hidden" id="lineCharFeedback"></div><span class="text-xs text-gray-500 font-normal block mb-[-3px]">Feedback </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="page-footer">
+        <p>Copyright 2022 © Roxo Admin by Pixelstrap </p>
+      </footer>
+    </main>
+    <div class="customizer fixed right-4 bottom-4 z-[100] rtl:left-4 rtl:right-unset">
+      <div>
+        <button class="customizer-btn p-3 flex items-center justify-center bg-primary rounded-full sm:p-2 animate__animated animate__spin animate__infinite">  <i class="w-5 h-5 stroke-white md:w-4 md:h-4" data-feather="settings"> </i></button>
+        <div class="customizer-sidebar">
+          <div class="flex rtl:flex items-center text-white justify-between  p-[15px] bg-primaryLight shadow-md"> <span class="text-base font-medium text-dark">Customizer</span>
+            <button class="customizer-close"> <i class="w-4 h-4 stroke-dark" data-feather="x"></i></button>
+          </div>
+          <div class="py-[4px] dark:bg-mode-200">
+            <div class="px-[15px] py-7  h-[calc(100vh_-_124px)] overflow-auto ">
+              <ul class="flex flex-col gap-7 mode-event">  
+                <li>
+                  <div>
+                    <h5 class="leading-none text-dark text-xs font-medium">Template Mode</h5><span class="leading-none text-gray-500 text-2xs">Choose template mode dark & light</span>
+                  </div>
+                  <div class="mt-2">
+                    <ul class="flex items-center gap-3 flex-wrap"> 
+                      <li class="relative">
+                        <input class="peer absolute opacity-0 invisible" checked id="light-checked" type="radio" name="mode"><i class="stroke-primary z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="mode-theme-light shadow-md border border-light overflow-hidden rounded-5 block" for="light-checked"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/light.png" alt="light"></label>
+                      </li>
+                      <li class="relative">
+                        <input class="peer absolute opacity-0 invisible" id="dark-checked" type="radio" name="mode"><i class="stroke-white z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="mode-theme-dark shadow-md border border-light overflow-hidden rounded-5 block" for="dark-checked"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/dark.png" alt="dark"></label>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <h5 class="leading-none text-dark text-xs font-medium">Layout Type</h5><span class="leading-none text-gray-500 text-2xs">Choose layout Ltr & Rtl</span>
+                  </div>
+                  <div class="mt-2">
+                    <ul class="flex items-center gap-3">
+                      <li class="relative">
+                        <input class="peer absolute opacity-0 invisible" checked id="ltr-checked" type="radio" name="dir"><i class="stroke-primary z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="layout-ltr shadow-md border border-light overflow-hidden rounded-5 block" for="ltr-checked"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/ltr.png" alt="ltr"></label>
+                      </li>
+                      <li class="relative"> 
+                        <input class="peer absolute opacity-0 invisible" id="rtl-checked" type="radio" name="dir"><i class="stroke-white z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="layout-rtl shadow-md border border-light overflow-hidden rounded-5 block" for="rtl-checked"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/rtl.png" alt="rtl"></label>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <h5 class="leading-none text-dark text-xs font-medium">Sidebar Type</h5><span class="leading-none text-gray-500 text-2xs">Choose Sidebar  icon & full</span>
+                  </div>
+                  <div class="mt-2">
+                    <ul class="flex items-center gap-3">
+                      <li class="relative">
+                        <input class="peer absolute opacity-0 invisible" checked id="full-sidebar" type="radio" name="sidebar-type"><i class="stroke-primary z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="sidebar-full shadow-md border border-light overflow-hidden rounded-5 block" for="full-sidebar"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/full-sidebar.png" alt="full sidebar"></label>
+                      </li>
+                      <li class="relative"> 
+                        <input class="peer absolute opacity-0 invisible" id="icon-sidebar" type="radio" name="sidebar-type"><i class="stroke-primary z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="sidebar-icon shadow-md border border-light overflow-hidden rounded-5 block" for="icon-sidebar"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/icon-sidebar.png" alt="icon sidebar"></label>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="flex items-center justify-between"> 
+                    <label class="leading-none text-dark text-xs font-medium" for="monochrome">Monochrome Mode</label>
+                    <input class="monochrome toggle toggle-primary" id="monochrome" name="monochrome" type="checkbox">
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex items-center gap-2 p-[15px] border-t border-light dark:bg-primaryLight"> 
+            <button class="btn btn-ghost reset-customizer flex-1">Reset  </button><a class="btn btn-primary text-white flex-1" href="https://themeforest.net/item/roxo-multipurpose-tailwind-admin-template/41813152">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../assets/js/helper.js"></script>
+    <script src="../../assets/js/sidebar.js"></script>
+    <!-- Feather Icons-->
+    <script src="../../assets/js/feather.min.js"> </script>
+    <!-- Apex Chart-->
+    <script src="../../assets/js/chart/apex-chart/apex-chart.js"></script>
+    <script src="../../assets/js/chart/apex-chart/apex-tooltip.js"></script>
+    <script src="../../assets/js/chart/apex-chart/apex-default-dashboard.js"></script>
+    <script src="../../assets/js/chart/apex-chart/ecommerce-dashboard.js"> </script>
+    <script src="../../assets/js/chart/apex-chart/apex-crypto-dashboard.js"> </script>
+    <!-- Template Customizer ///   -->
+    <script src="../../assets/js/customizer.js"> </script>
+    <!-- custom script   -->
+    <script src="../../assets/js/script.js">  </script>
+  </body>
+
+<!-- Mirrored from admin.pixelstrap.com/roxo/html/template/widgets.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Apr 2024 19:36:05 GMT -->
+</html>

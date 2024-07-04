@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  
+<!-- Mirrored from admin.pixelstrap.com/roxo/html/template/chat-app.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Apr 2024 19:35:50 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Roxo admin is super flexible, powerful, clean &amp; modern responsive tailwind admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Roxo admin template, dashboard template, tailwind admin template, responsive admin template, web app">
+    <meta name="author" content="pixelstrap">
+    <title>Roxo - Premium Admin Template</title>
+    <!-- Favicon icon-->
+    <link rel="icon" href="../../assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../assets/images/favicon.png" type="image/x-icon">
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+    <!-- Iconly icon css-->
+    <link rel="stylesheet" href="../../assets/css/vendors/iconly.css">
+    <link rel="stylesheet" href="../../assets/css/vendors/emoji-uikit.min.css">
+    <!-- App css-->
+    <link rel="stylesheet" href="../../assets/css/style.css">
+  </head>
+  <body dir="ltr">
+    <main class="page-wrapper"> 
+      <!-- Page Header start-->
+      <header class="sticky top-0 z-[4]">
+        <div class="page-header">
+          <ul class="header-nav flex items-center gap-4 w-full lg:gap-3 md:gap-2 sm:gap-1">
+            <!-- Page Left Header start-->
+            <li>
+              <div class="box-wrapper"><span class="icbu mr-[-1px] mb-[-2px] md:mr-0 toggle-sidebar"><span class="iconlyBulk-Category"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span><span class="path3 text-[20px] sm:text-[16px]"></span><span class="path4 text-[20px] sm:text-[16px]"></span></span></span>
+              </div>
+            </li>
+            <li class="w-11/12 lg:w-full sm:w-auto sm:mr-auto">
+              <form class="search-box flex relative w-11/12 lg:w-full sm:w-auto  header-search">
+                <div class="box-wrapper sm:inline-block hidden"><span class="icbu search-icon mr-[-1px] mb-[-2px]"><span class="iconlyBulk-Search"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></span>
+                </div>
+                <div class="group-input relative sm:absolute ltr:sm:left-0 rtl:sm:right-0 w-11/12 lg:w-full sm:w-auto"><span class="icbu mr-[-1px]"><span class="iconlyBulk-Search"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></span>
+                  <input class="w-full sm:w-48 dark:bg-mode-300 border-0 h-auto" type="text" placeholder="Search...">
+                </div>
+              </form>
+            </li>
+            <!-- Page Left Header end-->
+            <!-- Notification dropdown start-->
+            <li class="relative dropdown">
+              <div class="box-wrapper"><span class="icbu mr-[-1px] mb-[-2px] mt-[2px]"><span class="iconlyBulk-Notification"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></span>
+              </div>
+              <div class="dropdown-menu mt-3 p-0 ltr:md:left-[-270px] rtl:md:right-[-270px] ltr:sm:left-2.5 rtl:sm:right-2.5 ltr:lg:right-[-60px] rtl:lg:left-[-60px]">
+                <ul class="top-0 p-6 dark:bg-mode-300 w-[410px] sm:w-[300px] sm:px-5">
+                  <li class="flex justify-between items-center pb-4">
+                    <h6 class="font-medium">Notifications</h6><a class="text-primary underline decoration-solid" href="chat-app.html">Check all</a>
+                  </li>
+                              <li class="flex py-4 border-t border-light">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:w-[40px] sm:h-[30px] dark:bg-mode-300"><img class="mx-auto" src="../../assets/images/users/1.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="chat-app.html">Gary Hogan</a><span class="text-gray-500 opacity-50">5 mins ago</span></h6>
+                                  <p class="text-2xs text-gray-500">I have add 2 files for <span class="text-primary inline-block px-1">new task</span></p>
+                                  <div class="flex pt-4 gap-2 sm:flex-col">
+                                    <div class="p-3 bg-gray-200 flex rounded dark:bg-mode-100"><span class="icbu"><span class="iconlyBulk-Document"><span class="path1 text-[24px]"></span><span class="path2 text-[24px]"></span></span></span>
+                                      <div class="ml-2"><a class="text-2xs font-medium block" href="#">1_day_task.pdf</a><span class="text-gray-500">1 MB</span></div>
+                                    </div>
+                                    <div class="p-3 bg-gray-200 flex rounded dark:bg-mode-100"><span class="icbu"><span class="iconlyBulk-Paper-Plus"><span class="path1 text-[24px]"></span><span class="path2 text-[24px]"></span><span class="path3 text-[24px]"></span></span></span>
+                                      <div class="ml-2"><a class="text-2xs font-medium block" href="#">day_task.pdf</a><span class="text-gray-500">4 MB</span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="flex py-4 border-t border-light">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:w-[40px] sm:h-[30px] dark:bg-mode-300"><img class="mx-auto" src="../../assets/images/users/5.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="chat-app.html">Edwin Day</a><span class="text-gray-500 opacity-50">30 mins ago</span></h6>
+                                  <p class="text-2xs text-gray-500">Marked the <span class="text-primary inline-block px-1">bug analysis</span> task as done</p>
+                                </div>
+                              </li>
+                              <li class="flex py-4 border-t border-light pb-0">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:w-[40px] sm:h-[30px] dark:bg-mode-300"><img class="mx-auto" src="../../assets/images/users/4.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="chat-app.html">Ralph Waters</a><span class="text-gray-500 opacity-50">45 mins ago</span></h6>
+                                  <p class="text-2xs text-gray-500"><span class="text-primary inline-block px-1">New bugs </span> added for designer</p>
+                                </div>
+                              </li>
+                </ul>
+              </div>
+            </li>
+            <!-- Notification dropdown end-->
+            <!-- Bookmark dropdown start-->
+            <li class="relative dropdown">
+              <div class="box-wrapper">
+                <div class="icbu mr-[-1px] mb-[-2px]"><span class="iconlyBulk-Bookmark"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></div>
+              </div>
+              <div class="dropdown-menu mt-3 p-0">
+                <ul class="top-0 p-6 dark:bg-mode-300 w-[300px] sm:px-5">
+                  <li class="flex justify-between items-center pb-4"> 
+                    <h6 class="font-medium">Bookmark</h6>
+                  </li>
+                  <li class="pt-4 border-t border-light">
+                    <input class="form-input w-full" type="text" placeholder="Search for bookmark">
+                    <ul class="pt-4">
+                                  <li class="py-1 flex items-center"><a class="flex items-center" href="email-app.html">
+                                      <div class="icbu mr-3 inline-block"><span class="iconlyBulk-Message"><span class="path1 text-[20px]"></span><span class="path2 text-[20px]"></span></span></div><span class="inline-block">Email</span></a><i class="iconly-Star icli text-gray-500 ml-auto text-warning text-[16px]"></i></li>
+                                  <li class="py-1 flex items-center"><a class="flex items-center" href="feather-icon.html">
+                                      <div class="icbu mr-3 inline-block"><span class="iconlyBulk-Logout"><span class="path1 text-[20px]"></span><span class="path2 text-[20px]"></span></span></div><span class="inline-block">Feather icon</span></a><i class="iconly-Star icli text-gray-500 ml-auto  text-[16px]"></i></li>
+                                  <li class="py-1 flex items-center"><a class="flex items-center" href="chat-app.html">
+                                      <div class="icbu mr-3 inline-block"><span class="iconlyBulk-Chat"><span class="path1 text-[20px]"></span><span class="path2 text-[20px]"></span></span></div><span class="inline-block">Chat</span></a><i class="iconly-Star icli text-gray-500 ml-auto  text-[16px]"></i></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <!-- Bookmark dropdown end-->
+            <li>
+              <div class="box-wrapper">
+                <div id="dark-mode"><span class="icbu mr-[-1px] mb-[-2px]"><span class="iconlyBulk-Star"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></span>
+                </div>
+              </div>
+            </li>
+            <!-- Cart dropdown start-->
+            <li class="relative dropdown">
+              <div class="box-wrapper"><span class="icbu mr-[-1px] mb-[-2px]"><span class="iconlyBulk-Bag"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></span>
+              </div>
+              <div class="dropdown-menu mt-3 p-0 sm:left-2.5">
+                <ul class="top-0 p-6 dark:bg-mode-300 w-[410px] sm:w-[300px] sm:px-5">
+                  <li class="flex justify-between items-center pb-4">
+                    <h6 class="font-medium">Cart</h6><a class="text-primary underline decoration-solid" href="cart.html">Check all</a>
+                  </li>
+                              <li class="flex py-4 border-t border-light gap-5 sm:gap-3"><img class="rounded h-10 w-[50px] sm:w-[40px] sm:h-[30px]" src="../../assets/images/product/1.jpg" alt="product">
+                                <div class="flex-auto">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="product.html">Mi Watch Revolve</a></h6>
+                                  <p class="text-2xs text-primary">$ 10.00</p>
+                                </div>
+                                <input class="text-gray-500 w-10 px-2 py-1 border h-7 border-gray-400 rounded dark:bg-mode-100 dark:border-mode-200" type="text" value="1"><i class="iconly-Delete icli"></i>
+                              </li>
+                              <li class="flex py-4 border-t border-light gap-5 sm:gap-3"><img class="rounded h-10 w-[50px] sm:w-[40px] sm:h-[30px]" src="../../assets/images/product/2.jpg" alt="product">
+                                <div class="flex-auto">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="product.html">Ulrich Duffel Bag</a></h6>
+                                  <p class="text-2xs text-primary">$140.00</p>
+                                </div>
+                                <input class="text-gray-500 w-10 px-2 py-1 border h-7 border-gray-400 rounded dark:bg-mode-100 dark:border-mode-200" type="text" value="1"><i class="iconly-Delete icli"></i>
+                              </li>
+                              <li class="flex py-4 border-t border-light gap-5 sm:gap-3"><img class="rounded h-10 w-[50px] sm:w-[40px] sm:h-[30px]" src="../../assets/images/product/3.jpg" alt="product">
+                                <div class="flex-auto">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="product.html">Tree Stylish Pot</a></h6>
+                                  <p class="text-2xs text-primary">$ 840.00</p>
+                                </div>
+                                <input class="text-gray-500 w-10 px-2 py-1 border h-7 border-gray-400 rounded dark:bg-mode-100 dark:border-mode-200" type="text" value="1"><i class="iconly-Delete icli"></i>
+                              </li>
+                  <li class="flex py-4 border-t border-light justify-between">
+                    <h6 class="font-medium text-gray-500">Total</h6>
+                    <h6 class="font-medium">$ 990.00</h6>
+                  </li>
+                  <li><a class="btn btn-primary w-full block" href="checkout.html">Proceed to checkout</a></li>
+                </ul>
+              </div>
+            </li>
+            <!-- Cart dropdown end-->
+            <!-- Message dropdown start-->
+            <li class="relative dropdown">
+              <div class="box-wrapper">
+                <div class="icbu mr-[-1px] mb-[-2px]"><span class="iconlyBulk-Message"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></div>
+              </div>
+              <div class="dropdown-menu mt-3 p-0">
+                <ul class="top-0 p-6 dark:bg-mode-300 w-[410px] sm:w-[300px] sm:px-5">
+                  <li class="flex justify-between items-center pb-4">
+                    <h6 class="font-medium">Messages</h6><a class="text-primary underline decoration-solid" href="email-app.html">Send a new message</a>
+                  </li>
+                              <li class="flex py-4 border-t border-light">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:h-[35px]"><img class="mx-auto" src="../../assets/images/users/1.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1"><a class="text-xs font-medium" href="email-app.html">Robert fox</a></h6>
+                                  <p class="text-2xs text-gray-500 mb-2">Lorem Ipsum is simply dummy give information</p><span class="text-gray-500 opacity-50">10 mins ago</span>
+                                </div><span class="text-success">online</span>
+                              </li>
+                              <li class="flex py-4 border-t border-light">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:h-[35px]"><img class="mx-auto" src="../../assets/images/users/5.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1"><a class="text-xs font-medium" href="email-app.html">Andrew Young</a></h6>
+                                  <p class="text-2xs text-gray-500 mb-2">Lorem Ipsum is simply dummy give information</p><span class="text-gray-500 opacity-50">25 mins ago</span>
+                                </div><span class="text-warning">warning</span>
+                              </li>
+                              <li class="flex py-4 border-t border-light pb-0">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:h-[35px]"><img class="mx-auto" src="../../assets/images/users/4.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1"><a class="text-xs font-medium" href="email-app.html">Lucia Slaughter</a></h6>
+                                  <p class="text-2xs text-gray-500 mb-2">Lorem Ipsum is simply dummy give information</p><span class="text-gray-500 opacity-50">1 hr ago</span>
+                                </div><span class="text-success">online</span>
+                              </li>
+                </ul>
+              </div>
+            </li>
+            <!-- Message dropdown end-->
+            <li class="relative dropdown">
+              <div class="flex items-center gap-4 sm:w-auto lg:gap-3"><img class="w-10 h-10 rounded object-cover md:w-[39px] md:h-[39px] md:min-w-[39px] sm:min-w-[27px] sm:w-[27px] sm:h-[27px]" src="https://admin.pixelstrap.com/roxo/assets/images/user_image.svg" alt="user image">
+                <div class="md:hidden w-[128px]">
+                  <h6 class="text-xs font-medium">Helen Walter</h6><span class="text-2xs text-gray-500">Admin</span>
+                </div>
+              </div>
+              <div class="dropdown-menu mt-3 p-0">
+                <ul class="top-0 w-40 dark:bg-mode-300">
+                  <li class="px-4 py-2 border-t border-light"><a class="flex items-center w-full" href="email-app.html"><span class="icbu mr-2"><span class="iconlyBulk-Message"><span class="path1 text-[24px]"></span><span class="path2 text-[24px]"></span></span></span><span class="text-xs">Inbox</span></a></li>
+                  <li class="px-4 py-2 border-t border-light"><a class="flex items-center w-full" href="todo-app.html"><span class="icbu mr-2"><span class="iconlyBulk-Paper"><span class="path1 text-[24px]"></span><span class="path2 text-[24px]"></span><span class="path3 text-[24px]"></span></span></span><span class="text-xs">Taskboard</span></a></li>
+                  <li class="px-4 py-2 border-t border-light"><a class="flex items-center w-full" href="javascript:void(0)"><span class="icbu mr-2"><span class="iconlyBulk-Login"><span class="path1 text-[24px]"></span><span class="path2 text-[24px]"></span></span></span><span class="text-xs">Log out </span></a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <!-- Page Header end -->
+      <div class="page-body-wrapper"> 
+        <!-- Page sidebar start-->
+        <aside class="page-sidebar">
+          <div class="logo-wrapper"><a href="index.html"> <img class="logo-full" src="https://admin.pixelstrap.com/roxo/assets/images/logo/logo.svg" alt="logo"><img class="mx-auto logo-icon" src="https://admin.pixelstrap.com/roxo/assets/images/logo/logo-1.svg" alt="logo"></a>
+            <button class="sidebar-close-icon"><i class="stroke-white w-24px h-[24px]" data-feather="x"></i></button>
+          </div>
+          <nav class="sidebar-main"> 
+            <ul class="sidebar-links">
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                  <div class="icbu"><span class="iconlyBulk-Home text-[22px] lg:text-[20px]"> </span></div><span class="sidebar-name">Dashboards </span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="index.html">Default</a></li>
+                  <li><a href="education.html">Education</a></li>
+                  <li><a href="ecommerce.html">Ecommerce </a></li>
+                  <li><a href="crypto.html">Crypto</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="widgets.html">
+                  <div class="icbu"><span class="iconlyBulk-Activity"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Widgets</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                  <div class="icbu"> <span class="iconlyBulk-Graph"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Ui kits</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="typography.html">Typography</a></li>
+                  <li><a href="avatars.html">Avatars</a></li>
+                  <li><a href="buttons.html">Buttons</a></li>
+                  <li><a href="badge.html">Badge</a></li>
+                  <li><a href="progress.html">Progress</a></li>
+                  <li><a href="modal.html">Modal</a></li>
+                  <li><a href="alert.html">Alert</a></li>
+                  <li><a href="dropdown.html">Dropdown</a></li>
+                  <li><a href="collapse.html">Collapse</a></li>
+                  <li><a href="tooltip.html">Tooltip</a></li>
+                  <li><a href="divider.html">Divider</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="#">
+                  <div class="icbu"> <span class="iconlyBulk-Buy"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Ecommerce</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="product.html">Product</a></li>
+                  <li><a href="cart.html">Cart</a></li>
+                  <li><a href="checkout.html">Checkout</a></li>
+                  <li><a href="invoice.html">Invoice</a></li>
+                  <li><a href="invoice-preview.html">Invoice Preview</a></li>
+                  <li><a href="wishlist.html">Wishlist</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                  <div class="icbu"> <span class="iconlyBulk-Game"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Bonus Ui</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="breadcrumbs.html">Breadcrumbs</a></li>
+                  <li><a href="pagination.html">Pagination</a></li>
+                  <li><a href="carousel.html">Carousel</a></li>
+                  <li><a href="countdown.html">Countdown</a></li>
+                  <li><a href="progress-radial.html">Radial progress</a></li>
+                  <li><a href="swap.html">Swap</a></li>
+                  <li><a href="indicator.html">Indicator</a></li>
+                  <li><a href="mask.html">Mask</a></li>
+                  <li><a href="stack.html">Stack</a></li>
+                  <li><a href="steps.html">Steps</a></li>
+                  <li><a href="tabs.html">Tabs</a></li>
+                  <li><a href="rating.html">Rating</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Wallet"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span><span class="path3 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Form</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="input-textarea.html">Input and Textarea</a></li>
+                  <li><a href="checkbox-radio.html">Checkbox and Radio</a></li>
+                  <li><a href="select.html">Select</a></li>
+                  <li><a href="switch.html">Switch</a></li>
+                  <li><a href="input-group.html">Input Group      </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Folder"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Other Pages</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="register.html">Register</a></li>
+                  <li><a href="reset-password.html">Reset Password</a></li>
+                  <li><a href="coming-soon.html">Coming soon</a></li>
+                  <li><a href="otp.html">Otp</a></li>
+                  <li> <a href="error-404.html">Error 404</a></li>
+                  <li> <a href="forgot-password.html">Forget password  </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Video"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Animation</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="roxo-animation.html">Roxo Animation</a></li>
+                  <li><a href="wow-animation.html">Wow Animation            </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Location"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Map </span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="here-map.html">Here Map</a></li>
+                  <li><a href="data-map.html">Data Map          </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Info-Square"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Icons </span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="feather-icon.html">Feather Icons</a></li>
+                  <li><a href="iconly-icon.html">Iconly Icons </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Ticket"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Apps </span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="todo-app.html">Todo</a></li>
+                  <li><a href="email-app.html">Email                    </a></li>
+                  <li><a href="chat-app.html">Chat               </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Image"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Blog </span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="blog-grid.html">Blog Grid</a></li>
+                  <li><a href="blog-details.html">Blog Detail    </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="gallery.html">
+                  <div class="icbu"><span class="iconlyBulk-Image-2 !flex"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"> </span><span class="path3 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Gallery</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="faqs.html">
+                  <div class="icbu"><span class="iconlyBulk-Password !flex"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"> </span><span class="path3 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Faqs</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="samplepage.html">
+                  <div class="icbu"><span class="iconlyBulk-Paper"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Sample Page</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="swiper-slider.html">
+                  <div class="icbu"><span class="iconlyBulk-Swap !flex rotate-90 origin-center"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"> </span><span class="path3 text-[22px] lg:text-[20px]"> </span><span class="path4 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Swiper Slider</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="tables.html"> 
+                  <div class="icbu"><span class="iconlyBulk-Category"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Tables</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="calender.html"> 
+                  <div class="icbu"><span class="iconlyBulk-Calendar"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span><span class="path3 text-[22px] lg:text-[20px]"></span><span class="path4 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Calender </span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="apex-chart.html"> 
+                  <div class="icbu"><span class="iconlyBulk-Chart"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span><span class="path3 text-[22px] lg:text-[20px]"></span><span class="path4 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Apex Charts </span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="knowledgebase.html"> 
+                  <div class="icbu"><span class="iconlyBulk-Scan"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Knowledgebase</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="kanban-board.html"> 
+                  <div class="icbu"><span class="iconlyBulk-Document !flex"><span class="path1 text-[22px] lg:text-[20px]"> </span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Kanban Board </span></a></li>
+            </ul>
+          </nav>
+        </aside>
+        <!-- Page sidebar end   -->
+        <div class="page-body grid-cols-4 icon-event feather-event">
+                      <div class="page-title">
+                        <div class="grid grid-cols-2 md:gap-3 sm:gap-1 items-center">
+                          <div class="flex flex-col items-start gap-y-[4px] md:col-span-2">
+                            <h2 class="text-3xl capitalize font-medium text-dark 3xl:text-2xl md:mt-[-2px]">Chat
+                            </h2><span class="text-sm text-primary font-normal tracking-[.25em] 3xl:text-xs 3xl:tracking-[.15em]">ADMIN PANEL</span>
+                          </div>
+                          <div class="ml-auto md:col-span-2 md:ml-0">
+                            <nav class="w-full text-primary">
+                              <ol class="items-center flex breadcrumb"> 
+                                <li><a class="h-7 flex items-center justify-center relative w-[30px]" href="index.html"> 
+                                    <div class="icbu leading-none"><span class="iconlyBulk-Home text-base"></span></div></a></li>
+                                <li class="px-2"><span>/</span></li>
+                                <li class="capitalize">App</li>
+                                <li class="px-2"><span>/</span></li>
+                                <li class="capitalize font-light active">Chat</li>
+                              </ol>
+                            </nav>
+                          </div>
+                        </div>
+                      </div>
+          <div class="grid grid-cols-12 gap-0 border border-light rounded-5 h-full dark:bg-mode-300">
+            <div class="col-span-3 2xl:col-span-4 chat-sidebar">
+              <div class="border-light h-full md:dark:bg-mode-300"> 
+                <div class="p-4 pb-0">
+                  <div class="flex items-center justify-between pb-4 border-b border-light">
+                    <h4 class="text-base text-dark font-medium"> Chat</h4>
+                    <div class="flex items-center gap-1"> 
+                      <div class="dropdown dropdown-left dropdown-bottom">   
+                        <button class="p-2 rounded-full 3sm:p-1 md:p-1 hover:bg-gray-200 dark:hover:bg-mode-200">    <i class="w-4 h-4 stroke-dark" data-feather="settings"></i></button>
+                        <div class="dropdown-menu text-left  group-hover:top-[34px] top-[32px]">
+                          <ul class="flex flex-col justify-start gap-1 text-start">
+                            <li class="cursor-pointer transition-all text-dark hover:translate-x-1 hover:text-primary"><span class="whitespace-nowrap"> Mark as read</span></li>
+                            <li class="cursor-pointer transition-all text-dark hover:translate-x-1 hover:text-primary"><span class="whitespace-nowrap"> Mute</span></li>
+                            <li class="cursor-pointer transition-all text-dark hover:translate-x-1 hover:text-primary"><span class="whitespace-nowrap">Delete</span></li>
+                            <li class="cursor-pointer transition-all text-dark hover:translate-x-1 hover:text-primary"><span class="whitespace-nowrap">Block Contact</span></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <button class="p-2 rounded-full sm:p-1 hover:bg-gray-200 dark:hover:bg-mode-200"> <i class="w-4 h-4 stroke-dark" data-feather="plus"> </i></button>
+                      <button class="p-2 rounded-full hidden lg:p-1 chat-close-btn md:flex hover:bg-gray-200 dark:hover:bg-mode-200">  <i class="w-4 h-4 stroke-dark" data-feather="x"> </i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-4 overflow-auto max-h-[551px] md:max-h-screen custom-scroll"> 
+                  <ul class="flex flex-col gap-4">
+                    <li class="flex items-start justify-between pt-[13px] border-t border-light first:pt-0 first:mt-0 first:border-none">                                
+                      <div class="flex items-center gap-3 w-[calc(100%_-_55px)] xl:gap-2"> 
+                        <div class="indicator"><span class="indicator-item badge badge-success p-1 right-[5px] rtl:left-[-5px] rtl:right-unset top-[4px]"></span>
+                          <div class="avatar">
+                            <div class="w-10 rounded-full xl:w-9"><img src="../../assets/images/users/avatar2.jpg" alt="avatar"></div>
+                          </div>
+                        </div>
+                        <div class="w-[calc(100%_-_50px)]">
+                          <h4 class="text-xs font-medium truncate text-dark leading-none lg:text-2xs lg:leading-none">Vincent Porter </h4><span class="justify-between text-gray-500 text-gray-500 truncate block mt-1"> The difference between style and fashion is quality. Fashion to me has become very disposable; I wanted to get back to craft, </span>
+                        </div>
+                      </div>
+                      <div class="flex flex-col items-center gap-1">     <span class="text-gray-500 text-3xs">3:15 Am</span><span class="leading-none p-1 badge badge-success rounded-full badge text-3xs flex items-center justify-center min-w-[22px] min-h-[22px]">3 </span></div>
+                    </li>
+                    <li class="flex items-start justify-between pt-[13px] border-t border-light first:pt-0 first:mt-0 first:border-none">                                
+                      <div class="flex items-center gap-3 w-[calc(100%_-_55px)] xl:gap-2"> 
+                        <div class="indicator"> <span class="indicator-item badge badge-error p-1 right-[5px] rtl:left-[-5px] rtl:right-unset top-[4px]"></span>
+                          <div class="avatar"> 
+                            <div class="w-10 rounded-full xl:w-9"><img src="../../assets/images/users/avatar3.jpg" alt="avatar"></div>
+                          </div>
+                        </div>
+                        <div class="w-[calc(100%_-_50px)]"> 
+                          <h4 class="text-xs font-medium truncate text-dark leading-none lg:text-2xs lg:leading-none">Roy R. Taplin </h4><span class="text-gray-500 text-gray-500 truncate block mt-1"> There has to be a balance between your mental satisfaction and the financial needs of your company. </span>
+                        </div>
+                      </div>
+                      <div class="flex flex-col items-center gap-1">     <span class="text-gray-500 text-3xs">5:25 Am</span><span class="leading-none p-1 badge badge-success rounded-full badge text-3xs flex items-center justify-center">32</span></div>
+                    </li>
+                    <li class="flex items-start justify-between  pt-[13px] border-t border-light first:pt-0 first:mt-0 first:border-none">                                
+                      <div class="flex items-center gap-3 w-[calc(100%_-_55px)] xl:gap-2"> 
+                        <div class="indicator"><span class="indicator-item badge badge-warning p-1 right-[5px] rtl:left-[-5px] rtl:right-unset top-[4px]"></span>
+                          <div class="avatar">
+                            <div class="w-10 rounded-full xl:w-9"><img src="../../assets/images/users/avatar4.jpg" alt="avatar"></div>
+                          </div>
+                        </div>
+                        <div class="w-[calc(100%_-_50px)]">
+                          <h4 class="text-xs font-medium truncate text-dark leading-none lg:text-2xs lg:leading-none">Keith C. Hammons </h4><span class="text-gray-500 text-gray-500 truncate block mt-1">Fashion moves so quickly that, unless you have a strong point of view, you can lose integrity.</span>
+                        </div>
+                      </div><span class="text-gray-500 text-3xs">2 Week</span>
+                    </li>
+                    <li class="flex items-start justify-between  pt-[13px] border-t border-light first:pt-0 first:mt-0 first:border-none">                                
+                      <div class="flex items-center gap-3 w-[calc(100%_-_55px)] xl:gap-2"> 
+                        <div class="indicator"><span class="indicator-item badge badge-success p-1 right-[5px] rtl:left-[-5px] rtl:right-unset top-[4px]"></span>
+                          <div class="avatar">
+                            <div class="w-10 rounded-full xl:w-9"><img src="../../assets/images/users/avatar5.jpg" alt="avatar"></div>
+                          </div>
+                        </div>
+                        <div class="w-[calc(100%_-_50px)]">
+                          <h4 class="text-xs font-medium truncate text-dark leading-none lg:text-2xs lg:leading-none">Harry C. Whitaker </h4><span class="text-gray-500 text-gray-500 truncate block mt-1">I still appreciate individuality. Style is much more interesting than fashion, really.</span>
+                        </div>
+                      </div><span class="text-gray-500 text-3xs">2 Days</span>
+                    </li>
+                    <li class="flex items-start justify-between  pt-[13px] border-t border-light first:pt-0 first:mt-0 first:border-none">                                
+                      <div class="flex items-center gap-3 w-[calc(100%_-_55px)] xl:gap-2"> 
+                        <div class="indicator"><span class="indicator-item badge badge-warning p-1 right-[5px] rtl:left-[-5px] rtl:right-unset top-[4px]"></span>
+                          <div class="avatar">
+                            <div class="w-10 rounded-full xl:w-9"><img src="../../assets/images/users/avatar6.jpg" alt="avatar"></div>
+                          </div>
+                        </div>
+                        <div class="w-[calc(100%_-_50px)]">
+                          <h4 class="text-xs font-medium truncate text-dark leading-none lg:text-2xs lg:leading-none">Neil M. Jones</h4><span class="text-gray-500 text-gray-500 truncate block mt-1">Age and size are only numbers. It's the attitude you bring to clothes that make the difference</span>
+                        </div>
+                      </div>
+                      <div class="flex flex-col items-center gap-1">     <span class="text-gray-500 text-3xs">3:15 Am</span><span class="leading-none p-1 badge badge-success rounded-full badge text-3xs flex items-center justify-center min-w-[22px] min-h-[22px]">3 </span></div>
+                    </li>
+                    <li class="flex items-start justify-between  pt-[13px] border-t border-light first:pt-0 first:mt-0 first:border-none">                                
+                      <div class="flex items-center gap-3 w-[calc(100%_-_55px)] xl:gap-2"> 
+                        <div class="indicator"><span class="indicator-item badge badge-warning p-1 right-[5px] rtl:left-[-5px] rtl:right-unset top-[4px]"></span>
+                          <div class="avatar">
+                            <div class="w-10 rounded-full xl:w-9"><img src="../../assets/images/users/avatar7.jpg" alt="avatar"></div>
+                          </div>
+                        </div>
+                        <div class="w-[calc(100%_-_50px)]">
+                          <h4 class="text-xs font-medium truncate text-dark leading-none lg:text-2xs lg:leading-none">Jerry M. Thomas</h4><span class="text-gray-500 text-gray-500 block truncate block">My aim is to make the poor look rich and the rich look poor. </span>
+                        </div>
+                      </div><span class="text-gray-500 text-3xs">12:15 Pm</span>
+                    </li>
+                    <li class="flex items-start justify-between  pt-[13px] border-t border-light first:pt-0 first:mt-0 first:border-none">                                
+                      <div class="flex items-center gap-3 w-[calc(100%_-_55px)] xl:gap-2"> 
+                        <div class="indicator"><span class="indicator-item badge badge-success p-1 right-[5px] rtl:left-[-5px] rtl:right-unset top-[4px]"></span>
+                          <div class="avatar">
+                            <div class="w-10 rounded-full xl:w-9"><img src="../../assets/images/users/avatar2.jpg" alt="avatar"></div>
+                          </div>
+                        </div>
+                        <div class="w-[calc(100%_-_50px)]">
+                          <h4 class="text-xs font-medium truncate text-dark leading-none lg:text-2xs lg:leading-none">John C. West</h4><span class="text-gray-500 text-gray-500 truncate block mt-1">War taught me that not everything is glamorous</span>
+                        </div>
+                      </div><span class="text-gray-500 text-3xs">5:20 Pm</span>
+                    </li>
+                    <li class="flex items-start justify-between  pt-[13px] border-t border-light first:pt-0 first:mt-0 first:border-none">                                
+                      <div class="flex items-center gap-3 w-[calc(100%_-_55px)] xl:gap-2"> 
+                        <div class="indicator"><span class="indicator-item badge badge-error p-1 right-[5px] rtl:left-[-5px] rtl:right-unset top-[4px]"></span>
+                          <div class="avatar">
+                            <div class="w-10 rounded-full xl:w-9"><img src="../../assets/images/users/avatar3.jpg" alt="avatar"></div>
+                          </div>
+                        </div>
+                        <div class="w-[calc(100%_-_50px)]">
+                          <h4 class="text-xs font-medium truncate text-dark leading-none lg:text-2xs lg:leading-none">Virgil Y. Gibb </h4><span class="text-gray-500 text-gray-500 truncate block mt-1">I think it would rob her of something.</span>
+                        </div>
+                      </div><span class="text-gray-500 text-3xs">5:12 Pm</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-6 2xl:col-span-8 md:col-span-12 "> 
+              <div class="relative"> 
+                <div class="p-4 pb-0">
+                  <div class="border-b border-light pb-4 flex items-center justify-between">
+                    <div> 
+                      <div class="flex items-center gap-3"> 
+                        <div class="indicator">
+                          <div class="avatar">
+                            <div class="w-10 rounded-full xl:w-9"><img src="../../assets/images/users/avatar2.jpg" alt="avatar"></div>
+                          </div>
+                        </div>
+                        <div>
+                          <h4 class="text-xs font-medium text-dark leading-none 3sm:text-2xs 3sm:leading-none">Vincent Porter </h4>
+                          <div class="flex items-center gap-1 mt-1"><span class="w-2 h-2 rounded-full bg-success"></span><span class="text-gray-500 text-gray-500">Online </span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex items-center gap-2 justify-end lg:gap-1"> 
+                      <div>
+                        <button class="p-2 rounded-full hidden lg:p-1 chat-search-toggle sm:flex hover:bg-gray-200 dark:hover:bg-mode-200">  <i class="w-4 h-4 search-toggle stroke-dark" data-feather="search"> </i></button>
+                        <div class="chat-search-box">
+                          <div class="relative lg:w-[100%]">
+                            <input class="input w-full border-light pr-10 input-sm rtl:pl-10 rtl:pr-4 dark:bg-mode-200" id="search" name="search" type="search" placeholder="Search Chat"><i class="absolute w-4 h-4 -translate-y-1/2 stroke-dark top-1/2 right-4 rtl:left-4 rtl:right-unset" data-feather="search"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <button class="p-2 rounded-full lg:p-1 sidebar-toggle hover:bg-gray-200 dark:hover:bg-mode-200">  <i class="w-4 h-4 stroke-dark" data-feather="info"> </i></button>
+                      <button class="p-2 rounded-full hidden lg:p-1 chat-toggle md:flex hover:bg-gray-200 dark:hover:bg-mode-200">  <i class="w-4 h-4 stroke-dark" data-feather="message-circle"> </i></button>
+                      <div class="dropdown dropdown-left dropdown-bottom flex">  
+                        <button class="p-2 rounded-full lg:p-1 hover:bg-gray-200 dark:hover:bg-mode-200">    <i class="w-4 h-4 stroke-dark" data-feather="more-vertical"></i></button>
+                        <div class="dropdown-menu text-left  group-hover:top-[34px] top-[32px]">
+                          <ul class="flex flex-col justify-start gap-3">
+                            <li class="cursor-pointer transition-all flex items-center gap-2 text-dark hover:translate-x-1 hover:text-primary"><i class="w-4 h-4 stroke-dark" data-feather="phone-call"></i><span class="whitespace-nowrap"> Phone Call</span></li>
+                            <li class="cursor-pointer transition-all flex items-center gap-2 text-dark hover:translate-x-1 hover:text-primary"><i class="w-4 h-4 stroke-dark" data-feather="video"></i><span class="whitespace-nowrap"> Video Call</span></li>
+                            <li class="cursor-pointer transition-all flex items-center gap-2 text-dark hover:translate-x-1 hover:text-primary"><i class="w-4 h-4 stroke-dark" data-feather="user-plus"></i><span class="whitespace-nowrap"> Add Contact</span></li>
+                            <li class="cursor-pointer transition-all flex items-center gap-2 text-dark hover:translate-x-1 hover:text-primary"><i class="w-4 h-4 stroke-dark" data-feather="trash-2"></i><span class="whitespace-nowrap"> Delete</span></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="h-full"> 
+                  <div class="h-full overflow-auto custom-scroll px-4 py-0 h-[472px]">
+                    <div class="divider my-6"><span class="text-2xs leading-none badge border border-light text-gray-500 bg-transparent dark:bg-mode-200">Today</span></div>
+                    <div class="message message-left">
+                      <div class="message-box">
+                        <div class="message-content">
+                          <div class="avatar">
+                            <div class="w-8 rounded-full"><img src="../../assets/images/users/avatar2.jpg" alt="avatar"></div>
+                          </div>
+                          <div class="content">
+                            <p>I couldn't love a woman who inspired me to be totally disinterested. If I fell in love with a woman for an artistic reason, or from the point of view of my work, I think it would rob her of something.</p>
+                          </div>
+                        </div><span class="timer">12:15 Am</span>
+                      </div>
+                      <div class="dropdown dropdown-left dropdown-bottom">  
+                        <button class="p-2 rounded-full 3sm:p-1 md:p-1 hover:bg-gray-200 dark:hover:bg-mode-200">    <i class="w-4 h-4 stroke-dark" data-feather="more-vertical"></i></button>
+                        <div class="dropdown-menu text-left  group-hover:top-[34px] top-[32px]">
+                          <ul class="flex flex-col justify-start gap-3">
+                            <li class="cursor-pointer transition-all flex items-center gap-2 text-dark hover:translate-x-1 hover:text-primary"><i class="w-4 h-4 stroke-dark" data-feather="arrow-right"></i><span class="whitespace-nowrap"> Forward</span></li>
+                            <li class="cursor-pointer transition-all flex items-center gap-2 text-dark hover:translate-x-1 hover:text-primary"><i class="w-4 h-4 stroke-dark" data-feather="corner-up-right"></i><span class="whitespace-nowrap"> Replay</span></li>
+                            <li class="cursor-pointer transition-all flex items-center gap-2 text-dark hover:translate-x-1 hover:text-primary"><i class="w-4 h-4 stroke-dark" data-feather="trash-2"></i><span class="whitespace-nowrap"> Delete</span></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="message message-right"> 
+                      <div class="message-box">
+                        <div class="message-content">
+                          <div class="avatar">
+                            <div class="w-7 rounded-full"><img src="../../assets/images/users/avatar3.jpg" alt="avatar"></div>
+                          </div>
+                          <div class="content">
+                            <p>I fell in love with a woman for an artistic reason, or from the point of view of my work, I think it would rob her of something.</p>
+                          </div>
+                        </div><span class="timer">5:12 Am</span>
+                      </div>
+                      <div class="dropdown dropdown-left dropdown-bottom">  
+                        <button class="p-2 rounded-full 3sm:p-1 md:p-1 hover:bg-gray-200 dark:hover:bg-mode-200">     <i class="w-4 h-4 stroke-dark" data-feather="more-vertical"></i></button>
+                        <div class="dropdown-menu text-left  group-hover:top-[34px] top-[32px]">
+                          <ul class="flex flex-col justify-start gap-3">
+                            <li class="cursor-pointer transition-all flex items-center gap-2 text-dark hover:translate-x-1 hover:text-primary"><i class="w-4 h-4 stroke-dark" data-feather="arrow-right"></i><span class="whitespace-nowrap"> Forward</span></li>
+                            <li class="cursor-pointer transition-all flex items-center gap-2 text-dark hover:translate-x-1 hover:text-primary"><i class="w-4 h-4 stroke-dark" data-feather="corner-up-right"></i><span class="whitespace-nowrap"> Replay</span></li>
+                            <li class="cursor-pointer transition-all flex items-center gap-2 text-dark hover:translate-x-1 hover:text-primary"><i class="w-4 h-4 stroke-dark" data-feather="trash-2"></i><span class="whitespace-nowrap"> Delete </span></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="message message-left">
+                      <div class="message-box">
+                        <div class="message-content">
+                          <div class="avatar">
+                            <div class="w-8 rounded-full"><img src="../../assets/images/users/avatar2.jpg" alt="avatar"></div>
+                          </div>
+                          <div class="content">
+                            <p>I couldn't love a woman who inspired me to be totally disinterested. If I fell in love with a woman for an artistic reason, or from the point of view of my work, I think it would rob her of something.</p>
+                          </div>
+                        </div><span class="timer">12:15 Am</span>
+                      </div>
+                      <div class="dropdown dropdown-left dropdown-bottom">  
+                        <button class="p-2 rounded-full 3sm:p-1 md:p-1 hover:bg-gray-200 dark:hover:bg-mode-200">    <i class="w-4 h-4 stroke-dark" data-feather="more-vertical"></i></button>
+                        <div class="dropdown-menu text-left  group-hover:top-[34px] top-[32px]">
+                          <ul class="flex flex-col justify-start gap-3">
+                            <li class="cursor-pointer transition-all flex items-center gap-2 text-dark hover:translate-x-1 hover:text-primary"><i class="w-4 h-4 stroke-dark" data-feather="arrow-right"></i><span class="whitespace-nowrap"> Forward</span></li>
+                            <li class="cursor-pointer transition-all flex items-center gap-2 text-dark hover:translate-x-1 hover:text-primary"><i class="w-4 h-4 stroke-dark" data-feather="corner-up-right"></i><span class="whitespace-nowrap"> Replay</span></li>
+                            <li class="cursor-pointer transition-all flex items-center gap-2 text-dark hover:translate-x-1 hover:text-primary"><i class="w-4 h-4 stroke-dark" data-feather="trash-2"></i><span class="whitespace-nowrap"> Delete                            </span></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="message message-left message-typing">
+                      <div class="message-box">
+                        <div class="message-content">
+                          <div class="avatar">
+                            <div class="w-8 rounded-full"><img src="../../assets/images/users/avatar2.jpg" alt="avatar"></div>
+                          </div>
+                          <div class="content">
+                            <div class="typing">
+                              <div class="dot"></div>
+                              <div class="dot"></div>
+                              <div class="dot"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="p-4 pt-0 relative message-write"> 
+                  <div class="pt-4 border-t border-light bg-white flex items-stretch gap-2 3sm:gap-1 dark:bg-transparent">
+                    <div class="flex items-stretch gap-2 w-full emoji-picker-insert 3sm:gap-1">
+                      <button class="rounded-5 p-2 text-sm border border-light second-btn 3sm:p-1 3sm:leading-none 3sm:text-xs">&#128512;</button>
+                      <textarea class="text-sm textarea textarea-bordered two h-10 pt-2 dark:bg-mode-200 sm:text-xs sm:leading-[1.5] 3sm:leading-[14px] w-full max-w-full min-h-[auto]" placeholder="Type Message" rows="1"></textarea>
+                    </div>
+                    <ul class="flex flex-items-center gap-2 3sm:gap-1"> 
+                      <li> 
+                        <div class="dropdown dropdown-left dropdown-top group">  
+                          <button class="rounded-5 p-2 text-sm border border-light 3sm:p-1 3sm:min-w-[32px] 3sm:min-h-[32px] min-w-[38px] min-h-[38px] flex items-center justify-center"><i class="w-4 h-4" data-feather="paperclip"></i></button>
+                          <div class="dropdown-menu text-left  group-hover:!-top-[110px] !-top-[110px]">
+                            <ul class="flex flex-col justify-start gap-3"> 
+                              <li class="cursor-pointer transition-all flex items-center gap-2 text-dark hover:translate-x-1 hover:text-primary"><i class="w-4 h-4 stroke-dark" data-feather="image"></i><span class="whitespace-nowrap"> Image</span></li>
+                              <li class="cursor-pointer transition-all flex items-center gap-2 text-dark hover:translate-x-1 hover:text-primary"><i class="w-4 h-4 stroke-dark" data-feather="file-text"></i><span class="whitespace-nowrap">Document</span></li>
+                              <li class="cursor-pointer transition-all flex items-center gap-2 text-dark hover:translate-x-1 hover:text-primary"><i class="w-4 h-4 stroke-dark" data-feather="video"></i><span class="whitespace-nowrap"> Video   </span></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <button class="rounded-5 p-2 text-sm border border-light 3sm:p-1 3sm:min-w-[32px] 3sm:min-h-[32px] min-w-[38px] min-h-[38px] flex items-center justify-center"> <i class="w-4 h-4" data-feather="send"></i></button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-3 border-l sidebar-menu rtl:border-r rtl:border-l-0 border-light dark:bg-transparent"> 
+              <div class="overflow-auto p-4  h-full max-h-[616px] 2xl:max-h-screen 2xl:dark:bg-mode-300  custom-scroll">
+                <div class="flex items-center justify-between gap-2 mb-3 hidden 2xl:flex"> <span class="text-dark text-sm font-medium">Profile</span>
+                  <button class="p-2 rounded-full md:p-1 sidebar-close-btn hover:bg-gray-200 dark:hover:bg-mode-200">  <i class="w-4 h-4 stroke-dark" data-feather="x">  </i></button>
+                </div>
+                <div>
+                  <div class="rounded-full w-1/3 mx-auto mt-3 overflow-hidden rounded-full"><img class="object-cover w-full" src="../../assets/images/users/avatar2.jpg" alt="avatar"></div>
+                  <div class="mt-3 flex flex-col items-center gap-2"> 
+                    <h4 class="text-dark text-xs font-medium leading-none">Vincent Porter</h4>
+                    <div class="flex items-center gap-1"> <span class="w-2 h-2 rounded-full bg-success"></span><span class="text-xs text-gray-500 leading-none">Available</span></div><span class="text-xs text-gray-500 leading-none">Senior Web Developer </span>
+                  </div>
+                  <div class="mt-6">
+                    <h4 class="text-sm font-medium text-dark"> General info</h4>
+                    <ul class="mt-3 flex flex-col gap-2"> 
+                      <li class="flex items-center gap-2"><i class="w-[17px] h-[17px] stroke-dark" data-feather="briefcase"></i><span class="text-xs text-gray-500">Web Designer               </span></li>
+                      <li class="flex items-center gap-2"><i class="w-[17px] h-[17px] stroke-dark" data-feather="mail"></i><span class="text-xs text-gray-500">AmeliaJTaylor@dayrep.com               </span></li>
+                      <li class="flex items-center gap-2"><i class="w-[17px] h-[17px] stroke-dark" data-feather="phone"></i><span class="text-xs text-gray-500">752-4-5461-2145               </span></li>
+                      <li class="flex items-center gap-2"><i class="w-[17px] h-[17px] stroke-dark" data-feather="map-pin"></i><span class="text-xs text-gray-500">4734 Ashcraft Court San Diego              </span></li>
+                    </ul>
+                  </div>
+                  <div class="mt-6">
+                    <h4 class="text-sm font-medium text-dark"> Social info</h4>
+                    <ul class="mt-3 flex gap-2"> 
+                      <li class="p-2 rounded-5 bg-white border border-light dark:bg-mode-200"> <a href="http://wwww.google.com/"><i class="w-[18px] h-[18px]" data-feather="facebook">  </i></a></li>
+                      <li class="p-2 rounded-5 bg-white border border-light dark:bg-mode-200"> <a href="http://wwww.google.com/"><i class="w-[18px] h-[18px]" data-feather="twitter">  </i></a></li>
+                      <li class="p-2 rounded-5 bg-white border border-light dark:bg-mode-200"> <a href="http://wwww.google.com/"><i class="w-[18px] h-[18px]" data-feather="instagram">  </i></a></li>
+                      <li class="p-2 rounded-5 bg-white border border-light dark:bg-mode-200"> <a href="http://wwww.google.com/"><i class="w-[18px] h-[18px]" data-feather="linkedin">  </i></a></li>
+                    </ul>
+                  </div>
+                  <div class="mt-6">
+                    <h4 class="text-sm font-medium text-dark"> Recent File </h4>
+                    <ul class="mt-3 flex flex-col gap-2"> 
+                      <li class="flex items-center justify-between w-full">
+                        <div class="flex items-center gap-2">
+                          <div class="p-2 rounded-5 bg-white border border-light dark:bg-mode-200"> <i class="stroke-dark w-[18px] h-[18px]" data-feather="file-text"></i></div>
+                          <div>
+                            <h5 class="text-xs font-normal text-dark">Demo_document</h5><span class="text-xs text-gray-500">ppt- 1.2 mb</span>
+                          </div>
+                        </div><a href="javascript:void(0)"><i class="w-[18px] h-[18px]" data-feather="download"></i></a>
+                      </li>
+                      <li class="flex items-center justify-between w-full">
+                        <div class="flex items-center gap-2"> 
+                          <div class="p-2 rounded-5 bg-white border border-light dark:bg-mode-200"> <i class="stroke-dark w-[18px] h-[18px]" data-feather="image"></i></div>
+                          <div>
+                            <h5 class="text-xs font-normal text-dark">Demo_document</h5><span class="text-xs text-gray-500">image 2.2 mb</span>
+                          </div>
+                        </div><a href="javascript:void(0)"><i class="w-[18px] h-[18px]" data-feather="download"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="page-footer">
+        <p>Copyright 2022 © Roxo Admin by Pixelstrap </p>
+      </footer>
+    </main>
+    <div class="customizer fixed right-4 bottom-4 z-[100] rtl:left-4 rtl:right-unset">
+      <div>
+        <button class="customizer-btn p-3 flex items-center justify-center bg-primary rounded-full sm:p-2 animate__animated animate__spin animate__infinite">  <i class="w-5 h-5 stroke-white md:w-4 md:h-4" data-feather="settings"> </i></button>
+        <div class="customizer-sidebar">
+          <div class="flex rtl:flex items-center text-white justify-between  p-[15px] bg-primaryLight shadow-md"> <span class="text-base font-medium text-dark">Customizer</span>
+            <button class="customizer-close"> <i class="w-4 h-4 stroke-dark" data-feather="x"></i></button>
+          </div>
+          <div class="py-[4px] dark:bg-mode-200">
+            <div class="px-[15px] py-7  h-[calc(100vh_-_124px)] overflow-auto ">
+              <ul class="flex flex-col gap-7 mode-event">  
+                <li>
+                  <div>
+                    <h5 class="leading-none text-dark text-xs font-medium">Template Mode</h5><span class="leading-none text-gray-500 text-2xs">Choose template mode dark & light</span>
+                  </div>
+                  <div class="mt-2">
+                    <ul class="flex items-center gap-3 flex-wrap"> 
+                      <li class="relative">
+                        <input class="peer absolute opacity-0 invisible" checked id="light-checked" type="radio" name="mode"><i class="stroke-primary z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="mode-theme-light shadow-md border border-light overflow-hidden rounded-5 block" for="light-checked"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/light.png" alt="light"></label>
+                      </li>
+                      <li class="relative">
+                        <input class="peer absolute opacity-0 invisible" id="dark-checked" type="radio" name="mode"><i class="stroke-white z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="mode-theme-dark shadow-md border border-light overflow-hidden rounded-5 block" for="dark-checked"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/dark.png" alt="dark"></label>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <h5 class="leading-none text-dark text-xs font-medium">Layout Type</h5><span class="leading-none text-gray-500 text-2xs">Choose layout Ltr & Rtl</span>
+                  </div>
+                  <div class="mt-2">
+                    <ul class="flex items-center gap-3">
+                      <li class="relative">
+                        <input class="peer absolute opacity-0 invisible" checked id="ltr-checked" type="radio" name="dir"><i class="stroke-primary z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="layout-ltr shadow-md border border-light overflow-hidden rounded-5 block" for="ltr-checked"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/ltr.png" alt="ltr"></label>
+                      </li>
+                      <li class="relative"> 
+                        <input class="peer absolute opacity-0 invisible" id="rtl-checked" type="radio" name="dir"><i class="stroke-white z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="layout-rtl shadow-md border border-light overflow-hidden rounded-5 block" for="rtl-checked"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/rtl.png" alt="rtl"></label>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <h5 class="leading-none text-dark text-xs font-medium">Sidebar Type</h5><span class="leading-none text-gray-500 text-2xs">Choose Sidebar  icon & full</span>
+                  </div>
+                  <div class="mt-2">
+                    <ul class="flex items-center gap-3">
+                      <li class="relative">
+                        <input class="peer absolute opacity-0 invisible" checked id="full-sidebar" type="radio" name="sidebar-type"><i class="stroke-primary z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="sidebar-full shadow-md border border-light overflow-hidden rounded-5 block" for="full-sidebar"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/full-sidebar.png" alt="full sidebar"></label>
+                      </li>
+                      <li class="relative"> 
+                        <input class="peer absolute opacity-0 invisible" id="icon-sidebar" type="radio" name="sidebar-type"><i class="stroke-primary z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="sidebar-icon shadow-md border border-light overflow-hidden rounded-5 block" for="icon-sidebar"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/icon-sidebar.png" alt="icon sidebar"></label>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="flex items-center justify-between"> 
+                    <label class="leading-none text-dark text-xs font-medium" for="monochrome">Monochrome Mode</label>
+                    <input class="monochrome toggle toggle-primary" id="monochrome" name="monochrome" type="checkbox">
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex items-center gap-2 p-[15px] border-t border-light dark:bg-primaryLight"> 
+            <button class="btn btn-ghost reset-customizer flex-1">Reset  </button><a class="btn btn-primary text-white flex-1" href="https://themeforest.net/item/roxo-multipurpose-tailwind-admin-template/41813152">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../assets/js/helper.js"></script>
+    <script src="../../assets/js/sidebar.js"></script>
+    <!-- Feather Icons-->
+    <script src="../../assets/js/feather.min.js"> </script>
+    <script src="../../assets/js/emoji-picker/uikit.min.js"> </script>
+    <script src="../../assets/js/emoji-picker/uikit-icons.min.js"> </script>
+    <script src="../../assets/js/emoji-picker/vanillaEmojiPicker.js"> </script>
+    <script src="../../assets/js/emoji-picker/emojiPicker-custom.js"> </script>
+    <!-- Template Customizer ///   -->
+    <script src="../../assets/js/customizer.js"> </script>
+    <!-- custom script   -->
+    <script src="../../assets/js/script.js">  </script>
+  </body>
+
+<!-- Mirrored from admin.pixelstrap.com/roxo/html/template/chat-app.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Apr 2024 19:35:52 GMT -->
+</html>

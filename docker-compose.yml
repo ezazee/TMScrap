@@ -1,0 +1,17 @@
+services:
+  frontend-fs30:
+    image: frontend-fs30
+    container_name: frontend-fs30
+    build: 
+      context: ./
+      # dockerfile: Dockerfile
+    env_file:
+      - .env
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+    ports: 
+      - 3000:3000
+    volumes:
+      - ./src:/app/src

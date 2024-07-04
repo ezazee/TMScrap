@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  
+<!-- Mirrored from admin.pixelstrap.com/roxo/html/template/invoice-preview.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Apr 2024 19:36:06 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Roxo admin is super flexible, powerful, clean &amp; modern responsive tailwind admin template with unlimited possibilities.">
+    <meta name="keywords" content="admin template, Roxo admin template, dashboard template, tailwind admin template, responsive admin template, web app">
+    <meta name="author" content="pixelstrap">
+    <title>Roxo - Premium Admin Template</title>
+    <!-- Favicon icon-->
+    <link rel="icon" href="../../assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../assets/images/favicon.png" type="image/x-icon">
+    <!-- Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+    <!-- Iconly icon css-->
+    <link rel="stylesheet" href="../../assets/css/vendors/iconly.css">
+    <!-- App css-->
+    <link rel="stylesheet" href="../../assets/css/style.css">
+  </head>
+  <body dir="ltr">
+    <main class="page-wrapper"> 
+      <!-- Page Header start-->
+      <header class="sticky top-0 z-[4]">
+        <div class="page-header">
+          <ul class="header-nav flex items-center gap-4 w-full lg:gap-3 md:gap-2 sm:gap-1">
+            <!-- Page Left Header start-->
+            <li>
+              <div class="box-wrapper"><span class="icbu mr-[-1px] mb-[-2px] md:mr-0 toggle-sidebar"><span class="iconlyBulk-Category"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span><span class="path3 text-[20px] sm:text-[16px]"></span><span class="path4 text-[20px] sm:text-[16px]"></span></span></span>
+              </div>
+            </li>
+            <li class="w-11/12 lg:w-full sm:w-auto sm:mr-auto">
+              <form class="search-box flex relative w-11/12 lg:w-full sm:w-auto  header-search">
+                <div class="box-wrapper sm:inline-block hidden"><span class="icbu search-icon mr-[-1px] mb-[-2px]"><span class="iconlyBulk-Search"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></span>
+                </div>
+                <div class="group-input relative sm:absolute ltr:sm:left-0 rtl:sm:right-0 w-11/12 lg:w-full sm:w-auto"><span class="icbu mr-[-1px]"><span class="iconlyBulk-Search"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></span>
+                  <input class="w-full sm:w-48 dark:bg-mode-300 border-0 h-auto" type="text" placeholder="Search...">
+                </div>
+              </form>
+            </li>
+            <!-- Page Left Header end-->
+            <!-- Notification dropdown start-->
+            <li class="relative dropdown">
+              <div class="box-wrapper"><span class="icbu mr-[-1px] mb-[-2px] mt-[2px]"><span class="iconlyBulk-Notification"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></span>
+              </div>
+              <div class="dropdown-menu mt-3 p-0 ltr:md:left-[-270px] rtl:md:right-[-270px] ltr:sm:left-2.5 rtl:sm:right-2.5 ltr:lg:right-[-60px] rtl:lg:left-[-60px]">
+                <ul class="top-0 p-6 dark:bg-mode-300 w-[410px] sm:w-[300px] sm:px-5">
+                  <li class="flex justify-between items-center pb-4">
+                    <h6 class="font-medium">Notifications</h6><a class="text-primary underline decoration-solid" href="chat-app.html">Check all</a>
+                  </li>
+                              <li class="flex py-4 border-t border-light">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:w-[40px] sm:h-[30px] dark:bg-mode-300"><img class="mx-auto" src="../../assets/images/users/1.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="chat-app.html">Gary Hogan</a><span class="text-gray-500 opacity-50">5 mins ago</span></h6>
+                                  <p class="text-2xs text-gray-500">I have add 2 files for <span class="text-primary inline-block px-1">new task</span></p>
+                                  <div class="flex pt-4 gap-2 sm:flex-col">
+                                    <div class="p-3 bg-gray-200 flex rounded dark:bg-mode-100"><span class="icbu"><span class="iconlyBulk-Document"><span class="path1 text-[24px]"></span><span class="path2 text-[24px]"></span></span></span>
+                                      <div class="ml-2"><a class="text-2xs font-medium block" href="#">1_day_task.pdf</a><span class="text-gray-500">1 MB</span></div>
+                                    </div>
+                                    <div class="p-3 bg-gray-200 flex rounded dark:bg-mode-100"><span class="icbu"><span class="iconlyBulk-Paper-Plus"><span class="path1 text-[24px]"></span><span class="path2 text-[24px]"></span><span class="path3 text-[24px]"></span></span></span>
+                                      <div class="ml-2"><a class="text-2xs font-medium block" href="#">day_task.pdf</a><span class="text-gray-500">4 MB</span></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="flex py-4 border-t border-light">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:w-[40px] sm:h-[30px] dark:bg-mode-300"><img class="mx-auto" src="../../assets/images/users/5.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="chat-app.html">Edwin Day</a><span class="text-gray-500 opacity-50">30 mins ago</span></h6>
+                                  <p class="text-2xs text-gray-500">Marked the <span class="text-primary inline-block px-1">bug analysis</span> task as done</p>
+                                </div>
+                              </li>
+                              <li class="flex py-4 border-t border-light pb-0">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:w-[40px] sm:h-[30px] dark:bg-mode-300"><img class="mx-auto" src="../../assets/images/users/4.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="chat-app.html">Ralph Waters</a><span class="text-gray-500 opacity-50">45 mins ago</span></h6>
+                                  <p class="text-2xs text-gray-500"><span class="text-primary inline-block px-1">New bugs </span> added for designer</p>
+                                </div>
+                              </li>
+                </ul>
+              </div>
+            </li>
+            <!-- Notification dropdown end-->
+            <!-- Bookmark dropdown start-->
+            <li class="relative dropdown">
+              <div class="box-wrapper">
+                <div class="icbu mr-[-1px] mb-[-2px]"><span class="iconlyBulk-Bookmark"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></div>
+              </div>
+              <div class="dropdown-menu mt-3 p-0">
+                <ul class="top-0 p-6 dark:bg-mode-300 w-[300px] sm:px-5">
+                  <li class="flex justify-between items-center pb-4"> 
+                    <h6 class="font-medium">Bookmark</h6>
+                  </li>
+                  <li class="pt-4 border-t border-light">
+                    <input class="form-input w-full" type="text" placeholder="Search for bookmark">
+                    <ul class="pt-4">
+                                  <li class="py-1 flex items-center"><a class="flex items-center" href="email-app.html">
+                                      <div class="icbu mr-3 inline-block"><span class="iconlyBulk-Message"><span class="path1 text-[20px]"></span><span class="path2 text-[20px]"></span></span></div><span class="inline-block">Email</span></a><i class="iconly-Star icli text-gray-500 ml-auto text-warning text-[16px]"></i></li>
+                                  <li class="py-1 flex items-center"><a class="flex items-center" href="feather-icon.html">
+                                      <div class="icbu mr-3 inline-block"><span class="iconlyBulk-Logout"><span class="path1 text-[20px]"></span><span class="path2 text-[20px]"></span></span></div><span class="inline-block">Feather icon</span></a><i class="iconly-Star icli text-gray-500 ml-auto  text-[16px]"></i></li>
+                                  <li class="py-1 flex items-center"><a class="flex items-center" href="chat-app.html">
+                                      <div class="icbu mr-3 inline-block"><span class="iconlyBulk-Chat"><span class="path1 text-[20px]"></span><span class="path2 text-[20px]"></span></span></div><span class="inline-block">Chat</span></a><i class="iconly-Star icli text-gray-500 ml-auto  text-[16px]"></i></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <!-- Bookmark dropdown end-->
+            <li>
+              <div class="box-wrapper">
+                <div id="dark-mode"><span class="icbu mr-[-1px] mb-[-2px]"><span class="iconlyBulk-Star"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></span>
+                </div>
+              </div>
+            </li>
+            <!-- Cart dropdown start-->
+            <li class="relative dropdown">
+              <div class="box-wrapper"><span class="icbu mr-[-1px] mb-[-2px]"><span class="iconlyBulk-Bag"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></span>
+              </div>
+              <div class="dropdown-menu mt-3 p-0 sm:left-2.5">
+                <ul class="top-0 p-6 dark:bg-mode-300 w-[410px] sm:w-[300px] sm:px-5">
+                  <li class="flex justify-between items-center pb-4">
+                    <h6 class="font-medium">Cart</h6><a class="text-primary underline decoration-solid" href="cart.html">Check all</a>
+                  </li>
+                              <li class="flex py-4 border-t border-light gap-5 sm:gap-3"><img class="rounded h-10 w-[50px] sm:w-[40px] sm:h-[30px]" src="../../assets/images/product/1.jpg" alt="product">
+                                <div class="flex-auto">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="product.html">Mi Watch Revolve</a></h6>
+                                  <p class="text-2xs text-primary">$ 10.00</p>
+                                </div>
+                                <input class="text-gray-500 w-10 px-2 py-1 border h-7 border-gray-400 rounded dark:bg-mode-100 dark:border-mode-200" type="text" value="1"><i class="iconly-Delete icli"></i>
+                              </li>
+                              <li class="flex py-4 border-t border-light gap-5 sm:gap-3"><img class="rounded h-10 w-[50px] sm:w-[40px] sm:h-[30px]" src="../../assets/images/product/2.jpg" alt="product">
+                                <div class="flex-auto">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="product.html">Ulrich Duffel Bag</a></h6>
+                                  <p class="text-2xs text-primary">$140.00</p>
+                                </div>
+                                <input class="text-gray-500 w-10 px-2 py-1 border h-7 border-gray-400 rounded dark:bg-mode-100 dark:border-mode-200" type="text" value="1"><i class="iconly-Delete icli"></i>
+                              </li>
+                              <li class="flex py-4 border-t border-light gap-5 sm:gap-3"><img class="rounded h-10 w-[50px] sm:w-[40px] sm:h-[30px]" src="../../assets/images/product/3.jpg" alt="product">
+                                <div class="flex-auto">
+                                  <h6 class="mb-1 flex justify-between mt-0.5"><a class="text-xs font-medium" href="product.html">Tree Stylish Pot</a></h6>
+                                  <p class="text-2xs text-primary">$ 840.00</p>
+                                </div>
+                                <input class="text-gray-500 w-10 px-2 py-1 border h-7 border-gray-400 rounded dark:bg-mode-100 dark:border-mode-200" type="text" value="1"><i class="iconly-Delete icli"></i>
+                              </li>
+                  <li class="flex py-4 border-t border-light justify-between">
+                    <h6 class="font-medium text-gray-500">Total</h6>
+                    <h6 class="font-medium">$ 990.00</h6>
+                  </li>
+                  <li><a class="btn btn-primary w-full block" href="checkout.html">Proceed to checkout</a></li>
+                </ul>
+              </div>
+            </li>
+            <!-- Cart dropdown end-->
+            <!-- Message dropdown start-->
+            <li class="relative dropdown">
+              <div class="box-wrapper">
+                <div class="icbu mr-[-1px] mb-[-2px]"><span class="iconlyBulk-Message"><span class="path1 text-[20px] sm:text-[16px]"></span><span class="path2 text-[20px] sm:text-[16px]"></span></span></div>
+              </div>
+              <div class="dropdown-menu mt-3 p-0">
+                <ul class="top-0 p-6 dark:bg-mode-300 w-[410px] sm:w-[300px] sm:px-5">
+                  <li class="flex justify-between items-center pb-4">
+                    <h6 class="font-medium">Messages</h6><a class="text-primary underline decoration-solid" href="email-app.html">Send a new message</a>
+                  </li>
+                              <li class="flex py-4 border-t border-light">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:h-[35px]"><img class="mx-auto" src="../../assets/images/users/1.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1"><a class="text-xs font-medium" href="email-app.html">Robert fox</a></h6>
+                                  <p class="text-2xs text-gray-500 mb-2">Lorem Ipsum is simply dummy give information</p><span class="text-gray-500 opacity-50">10 mins ago</span>
+                                </div><span class="text-success">online</span>
+                              </li>
+                              <li class="flex py-4 border-t border-light">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:h-[35px]"><img class="mx-auto" src="../../assets/images/users/5.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1"><a class="text-xs font-medium" href="email-app.html">Andrew Young</a></h6>
+                                  <p class="text-2xs text-gray-500 mb-2">Lorem Ipsum is simply dummy give information</p><span class="text-gray-500 opacity-50">25 mins ago</span>
+                                </div><span class="text-warning">warning</span>
+                              </li>
+                              <li class="flex py-4 border-t border-light pb-0">
+                                <div class="bg-primaryLight h-10 flex justify-end rounded w-[50px] sm:h-[35px]"><img class="mx-auto" src="../../assets/images/users/4.png" alt="profile"></div>
+                                <div class="ml-4 flex-auto sm:ml-2">
+                                  <h6 class="mb-1"><a class="text-xs font-medium" href="email-app.html">Lucia Slaughter</a></h6>
+                                  <p class="text-2xs text-gray-500 mb-2">Lorem Ipsum is simply dummy give information</p><span class="text-gray-500 opacity-50">1 hr ago</span>
+                                </div><span class="text-success">online</span>
+                              </li>
+                </ul>
+              </div>
+            </li>
+            <!-- Message dropdown end-->
+            <li class="relative dropdown">
+              <div class="flex items-center gap-4 sm:w-auto lg:gap-3"><img class="w-10 h-10 rounded object-cover md:w-[39px] md:h-[39px] md:min-w-[39px] sm:min-w-[27px] sm:w-[27px] sm:h-[27px]" src="https://admin.pixelstrap.com/roxo/assets/images/user_image.svg" alt="user image">
+                <div class="md:hidden w-[128px]">
+                  <h6 class="text-xs font-medium">Helen Walter</h6><span class="text-2xs text-gray-500">Admin</span>
+                </div>
+              </div>
+              <div class="dropdown-menu mt-3 p-0">
+                <ul class="top-0 w-40 dark:bg-mode-300">
+                  <li class="px-4 py-2 border-t border-light"><a class="flex items-center w-full" href="email-app.html"><span class="icbu mr-2"><span class="iconlyBulk-Message"><span class="path1 text-[24px]"></span><span class="path2 text-[24px]"></span></span></span><span class="text-xs">Inbox</span></a></li>
+                  <li class="px-4 py-2 border-t border-light"><a class="flex items-center w-full" href="todo-app.html"><span class="icbu mr-2"><span class="iconlyBulk-Paper"><span class="path1 text-[24px]"></span><span class="path2 text-[24px]"></span><span class="path3 text-[24px]"></span></span></span><span class="text-xs">Taskboard</span></a></li>
+                  <li class="px-4 py-2 border-t border-light"><a class="flex items-center w-full" href="javascript:void(0)"><span class="icbu mr-2"><span class="iconlyBulk-Login"><span class="path1 text-[24px]"></span><span class="path2 text-[24px]"></span></span></span><span class="text-xs">Log out </span></a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <!-- Page Header end -->
+      <div class="page-body-wrapper"> 
+        <!-- Page sidebar start-->
+        <aside class="page-sidebar">
+          <div class="logo-wrapper"><a href="index.html"> <img class="logo-full" src="https://admin.pixelstrap.com/roxo/assets/images/logo/logo.svg" alt="logo"><img class="mx-auto logo-icon" src="https://admin.pixelstrap.com/roxo/assets/images/logo/logo-1.svg" alt="logo"></a>
+            <button class="sidebar-close-icon"><i class="stroke-white w-24px h-[24px]" data-feather="x"></i></button>
+          </div>
+          <nav class="sidebar-main"> 
+            <ul class="sidebar-links">
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                  <div class="icbu"><span class="iconlyBulk-Home text-[22px] lg:text-[20px]"> </span></div><span class="sidebar-name">Dashboards </span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu">
+                  <li> <a href="index.html">Default</a></li>
+                  <li><a href="education.html">Education</a></li>
+                  <li><a href="ecommerce.html">Ecommerce </a></li>
+                  <li><a href="crypto.html">Crypto</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="widgets.html">
+                  <div class="icbu"><span class="iconlyBulk-Activity"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Widgets</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                  <div class="icbu"> <span class="iconlyBulk-Graph"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Ui kits</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="typography.html">Typography</a></li>
+                  <li><a href="avatars.html">Avatars</a></li>
+                  <li><a href="buttons.html">Buttons</a></li>
+                  <li><a href="badge.html">Badge</a></li>
+                  <li><a href="progress.html">Progress</a></li>
+                  <li><a href="modal.html">Modal</a></li>
+                  <li><a href="alert.html">Alert</a></li>
+                  <li><a href="dropdown.html">Dropdown</a></li>
+                  <li><a href="collapse.html">Collapse</a></li>
+                  <li><a href="tooltip.html">Tooltip</a></li>
+                  <li><a href="divider.html">Divider</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="#">
+                  <div class="icbu"> <span class="iconlyBulk-Buy"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Ecommerce</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="product.html">Product</a></li>
+                  <li><a href="cart.html">Cart</a></li>
+                  <li><a href="checkout.html">Checkout</a></li>
+                  <li><a href="invoice.html">Invoice</a></li>
+                  <li><a href="invoice-preview.html">Invoice Preview</a></li>
+                  <li><a href="wishlist.html">Wishlist</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)">
+                  <div class="icbu"> <span class="iconlyBulk-Game"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Bonus Ui</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="breadcrumbs.html">Breadcrumbs</a></li>
+                  <li><a href="pagination.html">Pagination</a></li>
+                  <li><a href="carousel.html">Carousel</a></li>
+                  <li><a href="countdown.html">Countdown</a></li>
+                  <li><a href="progress-radial.html">Radial progress</a></li>
+                  <li><a href="swap.html">Swap</a></li>
+                  <li><a href="indicator.html">Indicator</a></li>
+                  <li><a href="mask.html">Mask</a></li>
+                  <li><a href="stack.html">Stack</a></li>
+                  <li><a href="steps.html">Steps</a></li>
+                  <li><a href="tabs.html">Tabs</a></li>
+                  <li><a href="rating.html">Rating</a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Wallet"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span><span class="path3 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Form</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="input-textarea.html">Input and Textarea</a></li>
+                  <li><a href="checkbox-radio.html">Checkbox and Radio</a></li>
+                  <li><a href="select.html">Select</a></li>
+                  <li><a href="switch.html">Switch</a></li>
+                  <li><a href="input-group.html">Input Group      </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Folder"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Other Pages</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="register.html">Register</a></li>
+                  <li><a href="reset-password.html">Reset Password</a></li>
+                  <li><a href="coming-soon.html">Coming soon</a></li>
+                  <li><a href="otp.html">Otp</a></li>
+                  <li> <a href="error-404.html">Error 404</a></li>
+                  <li> <a href="forgot-password.html">Forget password  </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Video"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Animation</span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="roxo-animation.html">Roxo Animation</a></li>
+                  <li><a href="wow-animation.html">Wow Animation            </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Location"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Map </span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="here-map.html">Here Map</a></li>
+                  <li><a href="data-map.html">Data Map          </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Info-Square"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Icons </span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="feather-icon.html">Feather Icons</a></li>
+                  <li><a href="iconly-icon.html">Iconly Icons </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Ticket"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Apps </span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="todo-app.html">Todo</a></li>
+                  <li><a href="email-app.html">Email                    </a></li>
+                  <li><a href="chat-app.html">Chat               </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="javascript:void(0)"> 
+                  <div class="icbu"><span class="iconlyBulk-Image"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Blog </span><i class="iconly-Arrow-Right-2 icli ml-auto rtl:rotate-180"></i></a>
+                <ul class="sidebar-submenu"> 
+                  <li><a href="blog-grid.html">Blog Grid</a></li>
+                  <li><a href="blog-details.html">Blog Detail    </a></li>
+                </ul>
+              </li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="gallery.html">
+                  <div class="icbu"><span class="iconlyBulk-Image-2 !flex"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"> </span><span class="path3 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Gallery</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="faqs.html">
+                  <div class="icbu"><span class="iconlyBulk-Password !flex"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"> </span><span class="path3 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Faqs</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="samplepage.html">
+                  <div class="icbu"><span class="iconlyBulk-Paper"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Sample Page</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="swiper-slider.html">
+                  <div class="icbu"><span class="iconlyBulk-Swap !flex rotate-90 origin-center"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"> </span><span class="path3 text-[22px] lg:text-[20px]"> </span><span class="path4 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Swiper Slider</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="tables.html"> 
+                  <div class="icbu"><span class="iconlyBulk-Category"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Tables</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="calender.html"> 
+                  <div class="icbu"><span class="iconlyBulk-Calendar"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span><span class="path3 text-[22px] lg:text-[20px]"></span><span class="path4 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Calender </span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="apex-chart.html"> 
+                  <div class="icbu"><span class="iconlyBulk-Chart"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span><span class="path3 text-[22px] lg:text-[20px]"></span><span class="path4 text-[22px] lg:text-[20px]"> </span></span></div><span class="sidebar-name">Apex Charts </span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="knowledgebase.html"> 
+                  <div class="icbu"><span class="iconlyBulk-Scan"><span class="path1 text-[22px] lg:text-[20px]"></span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Knowledgebase</span></a></li>
+              <li class="sidebar-list"><a class="sidebar-link sidebar-title" href="kanban-board.html"> 
+                  <div class="icbu"><span class="iconlyBulk-Document !flex"><span class="path1 text-[22px] lg:text-[20px]"> </span><span class="path2 text-[22px] lg:text-[20px]"></span></span></div><span class="sidebar-name">Kanban Board </span></a></li>
+            </ul>
+          </nav>
+        </aside>
+        <!-- Page sidebar end   -->
+        <div class="page-body grid-cols-4">
+                      <div class="page-title">
+                        <div class="grid grid-cols-2 md:gap-3 sm:gap-1 items-center">
+                          <div class="flex flex-col items-start gap-y-[4px] md:col-span-2">
+                            <h2 class="text-3xl capitalize font-medium text-dark 3xl:text-2xl md:mt-[-2px]"><span class="text-primary text-3xl 3xl:text-2xl">invoice</span> Ecommerce
+                            </h2><span class="text-sm text-primary font-normal tracking-[.25em] 3xl:text-xs 3xl:tracking-[.15em]">ADMIN PANEL</span>
+                          </div>
+                          <div class="ml-auto md:col-span-2 md:ml-0">
+                            <nav class="w-full text-primary">
+                              <ol class="items-center flex breadcrumb"> 
+                                <li><a class="h-7 flex items-center justify-center relative w-[30px]" href="index.html"> 
+                                    <div class="icbu leading-none"><span class="iconlyBulk-Home text-base"></span></div></a></li>
+                                <li class="px-2"><span>/</span></li>
+                                <li class="capitalize">Ecommerce</li>
+                                <li class="px-2"><span>/</span></li>
+                                <li class="capitalize font-light active">Invoice</li>
+                              </ol>
+                            </nav>
+                          </div>
+                        </div>
+                      </div>
+          <div class="grid grid-cols-12 gap-card">
+            <div class="card col-span-12 lg:col-span-12 overflow-auto">
+              <div class="invoice-main m-auto p-5 border border-light max-w-4xl shadow-md">                     
+                <table class="w-full text-left">
+                  <tbody> 
+                    <tr class="bg-slate-200 dark:bg-mode-200"> 
+                      <td class="p-5 align-middle text-start"> 
+                        <h2 class="mb-0 xl:text-lg"> ROXO</h2><span> Number: 289-335-6503 Date: 17-9-21</span>
+                      </td>
+                      <td class="p-5 w-[246px] mr-[10px] align-middle text-end">
+                        <h2 class="mb-0 xl:text-lg"> Invoice #1069</h2>Roxo ID Number: 123456789
+                      </td>
+                    </tr>
+                    <tr class="top">
+                      <td class="align-middle pb-5" colspan="2">
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td class="p-2 align-middle"><b> Sold By: ROXO </b>
+                                <div> 24555 Timmothy Vista</div>
+                                <div>dale.west@maggio.org</div>
+                                <div>Minnesota - 32121  </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="p-2 align-middle" colspan="2">
+                        <table style="width:100%;">
+                          <tbody>
+                            <tr class="pb-10">
+                              <td class="p-2 align-middle text-start"><b> Shipping Address: </b>
+                                <div>33, Yesvantpur Industrial Suburb,</div>
+                                <div> Yeshwanthpura, Bangalore,India</div>
+                                <div> 080 2337 2763</div>
+                                <div>info@Suburb.com</div>
+                                <div>www.Suburb.com</div>
+                              </td>
+                              <td class="align-middle  text-end"><b> Billing Address: Suburb </b>
+                                <div>John Doe</div>
+                                <div>john@deo.com</div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="p-2 align-middle" colspan="2">
+                        <table> 
+                          <tbody>
+                            <tr class="bg-slate-300 dark:bg-mode-200 font-semibold border-b border-light">
+                              <td class="min-w-[250px] xl:text-xs p-2 align-middle text-start">ITEM</td>
+                              <td class="p-2  xl:text-xs align-middle text-center" style="width:10%;">QTY.</td>
+                              <td class="p-2  xl:text-xs align-middle text-end" style="width:10%;">PRICE </td>
+                              <td class="p-2  xl:text-xs align-middle text-end" style="width:15%;">TAX</td>
+                              <td class="min-w-[115px] p-2  xl:text-xs align-middle text-end">
+                                 TAX AMOUNT</td>
+                              <td class="min-w-[130px] p-2  xl:text-xs align-middle text-end">TOTAL AMOUNT </td>
+                            </tr>
+                          </tbody>
+                          <tr>
+                            <td class="w-[25%] p-2 align-middle">
+                              Ulrich Duffel Bag
+                              Pack Of 2 Rs. 60 Off
+                              HSN Code :#ROXO001
+                              Duffels
+                            </td>
+                            <td class="p-2 align-middle " style="width:10%; text-align:center;">2</td>
+                            <td class="p-2 align-middle text-end" style="width:10%; ">25$</td>
+                            <td class="p-2 align-middle text-end" style="width:15%; ">12%</td>
+                            <td class="p-2 align-middle text-end" style="width:15%; ">3$</td>
+                            <td class="p-2 align-middle text-end" style="width:15%; ">28$</td>
+                          </tr>
+                          <tr class="bg-slate-100 dark:bg-mode-200">
+                            <td class="w-[25%] xl:text-xs p-2 align-middle text-start"><b> Grand Total </b></td>
+                            <td class="p-2 align-middle" style="width:10%; text-align:center;">2</td>
+                            <td class="p-2 align-middle text-end" style="width:10%;">25$</td>
+                            <td class="p-2 align-middle text-end" style="width:15%;"></td>
+                            <td class="p-2 align-middle text-end" style="width:15%;">3$</td>
+                            <td class="p-2 align-middle text-end" style="width:15%;">28$</td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                    <tr class="total">
+                      <td class="align-middle text-end" colspan="2">Total Amount in Words :  <b> Twenty-eight dollar Only </b></td>
+                    </tr>
+                    <tr>
+                      <td class="p-2 align-middle">
+                        <table>
+                          <tbody>
+                            <tr>
+                              <td class="p-2 align-middle text-start" style="width:50%;"><b> Declaration: </b><br>We declare that this invoice shows the actual price
+                                described above and that all particulars are true and correct.
+                              </td>
+                              <td class="align-middle text-end">
+                                * This is a computer generated invoice and does not
+                                require a physical signature
+                              </td>
+                            </tr>
+                            <tr class="align-middle text-end">
+                              <td class="align-middle text-end" style="width:50%;"></td>
+                              <td class="p-2 align-middle"><b> Authorized Signature                                                 </b>
+                                <div>...................................</div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="page-footer">
+        <p>Copyright 2022 © Roxo Admin by Pixelstrap </p>
+      </footer>
+    </main>
+    <div class="customizer fixed right-4 bottom-4 z-[100] rtl:left-4 rtl:right-unset">
+      <div>
+        <button class="customizer-btn p-3 flex items-center justify-center bg-primary rounded-full sm:p-2 animate__animated animate__spin animate__infinite">  <i class="w-5 h-5 stroke-white md:w-4 md:h-4" data-feather="settings"> </i></button>
+        <div class="customizer-sidebar">
+          <div class="flex rtl:flex items-center text-white justify-between  p-[15px] bg-primaryLight shadow-md"> <span class="text-base font-medium text-dark">Customizer</span>
+            <button class="customizer-close"> <i class="w-4 h-4 stroke-dark" data-feather="x"></i></button>
+          </div>
+          <div class="py-[4px] dark:bg-mode-200">
+            <div class="px-[15px] py-7  h-[calc(100vh_-_124px)] overflow-auto ">
+              <ul class="flex flex-col gap-7 mode-event">  
+                <li>
+                  <div>
+                    <h5 class="leading-none text-dark text-xs font-medium">Template Mode</h5><span class="leading-none text-gray-500 text-2xs">Choose template mode dark & light</span>
+                  </div>
+                  <div class="mt-2">
+                    <ul class="flex items-center gap-3 flex-wrap"> 
+                      <li class="relative">
+                        <input class="peer absolute opacity-0 invisible" checked id="light-checked" type="radio" name="mode"><i class="stroke-primary z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="mode-theme-light shadow-md border border-light overflow-hidden rounded-5 block" for="light-checked"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/light.png" alt="light"></label>
+                      </li>
+                      <li class="relative">
+                        <input class="peer absolute opacity-0 invisible" id="dark-checked" type="radio" name="mode"><i class="stroke-white z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="mode-theme-dark shadow-md border border-light overflow-hidden rounded-5 block" for="dark-checked"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/dark.png" alt="dark"></label>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <h5 class="leading-none text-dark text-xs font-medium">Layout Type</h5><span class="leading-none text-gray-500 text-2xs">Choose layout Ltr & Rtl</span>
+                  </div>
+                  <div class="mt-2">
+                    <ul class="flex items-center gap-3">
+                      <li class="relative">
+                        <input class="peer absolute opacity-0 invisible" checked id="ltr-checked" type="radio" name="dir"><i class="stroke-primary z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="layout-ltr shadow-md border border-light overflow-hidden rounded-5 block" for="ltr-checked"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/ltr.png" alt="ltr"></label>
+                      </li>
+                      <li class="relative"> 
+                        <input class="peer absolute opacity-0 invisible" id="rtl-checked" type="radio" name="dir"><i class="stroke-white z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="layout-rtl shadow-md border border-light overflow-hidden rounded-5 block" for="rtl-checked"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/rtl.png" alt="rtl"></label>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <h5 class="leading-none text-dark text-xs font-medium">Sidebar Type</h5><span class="leading-none text-gray-500 text-2xs">Choose Sidebar  icon & full</span>
+                  </div>
+                  <div class="mt-2">
+                    <ul class="flex items-center gap-3">
+                      <li class="relative">
+                        <input class="peer absolute opacity-0 invisible" checked id="full-sidebar" type="radio" name="sidebar-type"><i class="stroke-primary z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="sidebar-full shadow-md border border-light overflow-hidden rounded-5 block" for="full-sidebar"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/full-sidebar.png" alt="full sidebar"></label>
+                      </li>
+                      <li class="relative"> 
+                        <input class="peer absolute opacity-0 invisible" id="icon-sidebar" type="radio" name="sidebar-type"><i class="stroke-primary z-[10] transition-all scale-0 opacity-0 absolute peer-checked:opacity-100 peer-checked:scale-100 top-2 right-2 w-4 h-4" data-feather="check-circle"></i>
+                        <label class="sidebar-icon shadow-md border border-light overflow-hidden rounded-5 block" for="icon-sidebar"> <img class="w-[90px] object-cover" src="../../assets/images/customizer/icon-sidebar.png" alt="icon sidebar"></label>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <div class="flex items-center justify-between"> 
+                    <label class="leading-none text-dark text-xs font-medium" for="monochrome">Monochrome Mode</label>
+                    <input class="monochrome toggle toggle-primary" id="monochrome" name="monochrome" type="checkbox">
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="flex items-center gap-2 p-[15px] border-t border-light dark:bg-primaryLight"> 
+            <button class="btn btn-ghost reset-customizer flex-1">Reset  </button><a class="btn btn-primary text-white flex-1" href="https://themeforest.net/item/roxo-multipurpose-tailwind-admin-template/41813152">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../../assets/js/helper.js"></script>
+    <script src="../../assets/js/sidebar.js"></script>
+    <!-- Feather Icons-->
+    <script src="../../assets/js/feather.min.js"> </script>
+    <!-- Template Customizer ///   -->
+    <script src="../../assets/js/customizer.js"> </script>
+    <!-- custom script   -->
+    <script src="../../assets/js/script.js">  </script>
+  </body>
+
+<!-- Mirrored from admin.pixelstrap.com/roxo/html/template/invoice-preview.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 18 Apr 2024 19:36:06 GMT -->
+</html>
