@@ -1,16 +1,15 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
-import useClientStore from "@/state/chartState";
 
 const Chart = dynamic(() => import("react-apexcharts"), { ssr: false });
 
 const ChartComponent: React.FC = () => {
-  const { isClient, setIsClient } = useClientStore();
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    setIsClient();
-  }, [setIsClient]);
+    setIsClient(true);
+  }, []);
 
   if (!isClient) return null;
 
