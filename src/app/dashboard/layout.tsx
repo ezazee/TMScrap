@@ -5,7 +5,7 @@ import TopBar from "@/components/common/TopBar";
 import { Poppins } from "next/font/google";
 import "../../styles/sidebar.css";
 import useLoadingStore from "@/state/useLoading";
-import {useEffect} from 'react'
+import { useEffect } from "react";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -17,7 +17,6 @@ export default function DashboardLayout({
 }: {
   children: React.ReactNode;
 }) {
-
   const setLoading = useLoadingStore((state) => state.setLoading);
 
   useEffect(() => {
@@ -27,13 +26,10 @@ export default function DashboardLayout({
   }, [setLoading]);
   return (
     <main
-      className={`${poppins.className} text-base text-body-color font-poppins bg-body dark:text-white`}
-    >
+      className={`${poppins.className} text-base text-body-color font-poppins bg-body dark:text-white`}>
       <SideBar />
       <TopBar />
-      <div className="page-body">
-          {children}
-        </div>
+      <div className="page-body">{children}</div>
       <Footer />
     </main>
   );

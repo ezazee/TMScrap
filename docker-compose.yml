@@ -1,8 +1,8 @@
 services:
-  frontend-fs30:
-    image: frontend-fs30
-    container_name: frontend-fs30
-    build: 
+  tmscrapper:
+    image: tmscrapper
+    container_name: tmscrapper
+    build:
       context: ./
       # dockerfile: Dockerfile
     env_file:
@@ -11,7 +11,7 @@ services:
       - NODE_ENV=development
       - CHOKIDAR_USEPOLLING=true
       - WATCHPACK_POLLING=true
-    ports: 
+    ports:
       - 3000:3000
     volumes:
       - ./src:/app/src

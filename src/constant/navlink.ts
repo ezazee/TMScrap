@@ -1,18 +1,15 @@
 import {
-  faBookBookmark,
-  faBookOpen,
-  faBriefcase,
-  faCodeCompare,
-  faFire,
-  faGears,
   faGlobe,
   faNetworkWired,
-  faServer,
   faTachometerAlt,
-  faUser,
+  faBookmark,
+  faBookBookmark,
+  faBookSkull,
+  faComputer,
+  faTerminal,
+  faListCheck,
+  faFaceGrinTongueSquint,
 } from "@fortawesome/free-solid-svg-icons";
-import { faBug } from "@fortawesome/free-solid-svg-icons/faBug";
-import { faBullseye } from "@fortawesome/free-solid-svg-icons/faBullseye";
 
 const menuItems = [
   {
@@ -30,47 +27,54 @@ const menuItems = [
   },
   {
     label: "",
-    name: "Network",
-    href: "/dashboard/scanner/network",
+    name: "Web Server",
+    href: "/dashboard/asm/webServer",
     icon: faGlobe,
   },
   //!   Gap Report
   {
     label: "Report",
-    name: "Generate Report Per Shift",
+    name: "Generate Report Shift",
     href: "/dashboard/report/shift",
-    icon: faNetworkWired,
+    icon: faBookSkull,
   },
   {
     label: "",
     name: "Generate Report R2 Only",
     href: "/dashboard/report/r2",
-    icon: faGlobe,
+    icon: faBookmark,
   },
   {
     label: "",
     name: "Generate Report Bulanan",
     href: "/dashboard/report/month",
-    icon: faGlobe,
+    icon: faBookBookmark,
   },
   //!   Gap Live Monitoring
   {
     label: "Live Monitoring",
     name: "Attack, DNS, Malware",
-    href: "/dashboard/report/shift",
-    icon: faNetworkWired,
+    href: "/dashboard/livemon/attack",
+    icon: faComputer,
   },
   {
     label: "",
-    name: "Generate Report R2 Only",
-    href: "/dashboard/report/r2",
-    icon: faGlobe,
+    name: "SSH, RDP & SMB",
+    href: "/dashboard/livemon/ssh",
+    icon: faTerminal,
+  },
+  //!   Gap Create Event
+  {
+    label: "Create Event",
+    name: "Evemt Discord",
+    href: "/dashboard/event/discord",
+    icon: faFaceGrinTongueSquint,
   },
   {
     label: "",
-    name: "Generate Report Bulanan",
-    href: "/dashboard/report/month",
-    icon: faGlobe,
+    name: "Event Workbench",
+    href: "/dashboard/evemt/workbench",
+    icon: faListCheck,
   },
 ];
 
