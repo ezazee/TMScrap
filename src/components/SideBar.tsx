@@ -36,28 +36,26 @@ const SideBar = () => {
       <aside
         className={`page-sidebar bg-gray-800 text-white w-64 transition-all duration-300 ${
           isSidebarOpen ? "" : "sidebar-close"
-        }`}
-      >
+        }`}>
         <div className="logo-wrapper flex flex-col items-center relative p-4">
           <a href="#" className="flex flex-col items-center">
             <Image
               width={150}
               height={150}
-              src="/images/logo_wide.png"
+              src="/images/tmscrap2.png"
               alt="logo"
             />
             <Image
               width={40}
               height={40}
               className="logo-icon mt-4"
-              src="/images/favicon.png"
+              src="/images/tmscrap.png"
               alt="logo"
             />
           </a>
           <button
             className="sidebar-close-icon absolute top-4 right-4 lg:hidden"
-            onClick={toggleSidebar}
-          >
+            onClick={toggleSidebar}>
             <FontAwesomeIcon icon={faClose} />
           </button>
         </div>
