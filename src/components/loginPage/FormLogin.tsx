@@ -18,7 +18,7 @@ const FormLogin = () => {
     setError(""); // Reset error message
 
     try {
-      const response = await fetch(`api/v1/token`, {
+      const response = await fetch(`http://10.20.20.99:8960/api/v1/token`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
